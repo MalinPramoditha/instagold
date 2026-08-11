@@ -1,17 +1,19 @@
 "use client"
 import { SITE } from "@/app/data/site";
-import { TESTIMONIALS } from "@/app/data/testimonials";
 import { Container, Section } from "@/components/site/ui";
 import { Star, StarHalf } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, FreeMode } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import ReviewCard from "./blocks/ReviewCard";
 
 export function Testimonials({
+    data,
     tone = "quote",
     limit = 3,
 }: {
+    data: any,
     tone?: "white" | "ivory" | "stone" | "quote";
     limit?: number;
 }) {
@@ -22,6 +24,12 @@ export function Testimonials({
                     <h2 id="reviews-title" className="text-2xl leading-tight sm:text-3xl">
                         What our clients say
                     </h2>
+                    <a
+                        href={SITE.reviewsUrl}
+                        className="font-medium text-foreground underline decoration-2 underline-offset-4 decoration-accent-soft hover:decoration-link"
+                    >
+                        Read more reviews
+                    </a>
 
                 </div>
                 <div className="mt-8">
@@ -32,7 +40,7 @@ export function Testimonials({
                         loop={true}
                         breakpoints={{
                             320: {
-                                slidesPerView: 2,
+                                slidesPerView: 1,
                                 spaceBetween: 10
                             },
                             480: {
@@ -54,24 +62,8 @@ export function Testimonials({
                         className="mySwiper">
 
 
-                        {TESTIMONIALS.map((t) => (
-                            <SwiperSlide>
-                                <div key={t.name} className="panel-soft rounded-xl border border-hairline bg-card p-6">
-                                    <div className="flex gap-0.5 py-2">
-                                        <Star className="size-4 text-brand" />
-                                        <Star className="size-4 text-brand" />
-                                        <Star className="size-4 text-brand" />
-                                        <Star className="size-4 text-brand" />
-                                        <StarHalf className="size-4 text-brand" />
-                                    </div>
-                                    <p className="text-base leading-relaxed text-foreground">“{t.quote}”</p>
-                                    <p className="mt-4 text-sm font-medium text-muted-foreground">
-                                        {t.name}
-                                        {t.item ? ` · ${t.item}` : ""}
-                                    </p>
-                                </div>
-                            </SwiperSlide>
-
+                        {data.map((t: any) => (
+                            <SwiperSlide><ReviewCard data={t} /></SwiperSlide>
                         ))}
                     </Swiper>
                 </div>

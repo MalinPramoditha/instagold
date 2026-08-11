@@ -1,6 +1,6 @@
 import { Container, Section } from "./ui";
 import { ItemsGrid } from "./ItemsGrid";
-import { Eyebrow } from "@/components/site/Eyebrow";
+import { Eyebrow } from "@/components/site/blocks/Eyebrow";
 import { GOLD_ITEMS } from "@/app/data/GoldItems";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

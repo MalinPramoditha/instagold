@@ -1,5 +1,6 @@
 import { SITE } from "@/app/data/site"
-import { Section, Container } from "./ui";
+import { Section } from "@/components/site/blocks/Sections";
+import { Container } from "@/components/site/blocks/Container";
 import { Button } from "@/components/ui/button"
 import Link from "next/link";
 // import Cta from "./Cta";

@@ -1,10 +1,9 @@
 import { Section, Container } from "./ui";
 import { SITE } from "@/app/data/site";
-import { FAQS } from "@/app/data/FAQS";
 // import { AlternativeContact } from "../site/AlternativeContact";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, } from "@/components/ui/accordion"
 
-export function FAQ() {
+export function FAQ({ data }: { data: any }) {
     return (
         <Section tone="ivory" labelledBy="faq-title">
             <Container className="text-center">
@@ -12,7 +11,7 @@ export function FAQ() {
                     Frequently asked questions
                 </h2>
                 <Accordion defaultValue={["item-0"]} className="mx-auto mt-6 max-w-3xl text-left rounded-2xl border border-hairline bg-card px-5 py-1 sm:px-8 sm:py-2">
-                    {FAQS.map((faq, index) => (
+                    {data.map((faq: { q: string, a: string }, index: number) => (
                         <AccordionItem value={`item-${index}`} key={index} className="group border-b border-hairline last:border-b-0">
                             <AccordionTrigger className="text-base font-semibold leading-snug text-foreground sm:text-lg">{faq.q}</AccordionTrigger>
                             <AccordionContent className="measure pb-6 text-base leading-relaxed text-muted-foreground">

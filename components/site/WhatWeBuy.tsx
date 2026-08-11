@@ -1,6 +1,5 @@
 import { Container, Eyebrow, Section } from "./ui";
-import { CATEGORIES } from "@/app/data/Categories";
-
+import { ThingsWeBuy } from "@/app/data/ThingsWeBuy";
 export function WhatWeBuy() {
     return (
         <Section tone="ivory" labelledBy="categories-title">
@@ -11,7 +10,7 @@ export function WhatWeBuy() {
                 </h2>
 
                 <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-                    {CATEGORIES.map((c) => (
+                    {ThingsWeBuy.map((c) => (
                         <li key={c.title} className="panel-soft flex flex-col overflow-hidden rounded-xl border border-hairline bg-card">
                             <img
                                 src={c.image.src}

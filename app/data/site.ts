@@ -43,7 +43,7 @@ export const NAV = [
             {
                 heading: "Gold & Precious Metals",
                 links: [
-                    { label: "Gold", href: "/what-we-buy/gold-buyers-nyc" },
+                    { label: "Gold", href: "/golds" },
                     { label: "Gold Coins", href: "/what-we-buy/gold-buyers-nyc" },
                     { label: "Gold Bullion & Bars", href: "/what-we-buy/gold-buyers-nyc" },
                     { label: "Scrap & Dental Gold", href: "/what-we-buy/gold-buyers-nyc" },
@@ -70,10 +70,10 @@ export const NAV = [
             },
         ],
     },
-    { label: "Gold", href: "/what-we-buy/gold-buyers-nyc" },
-    { label: "Watches", href: "/what-we-buy/watch-buyers-nyc" },
-    { label: "Jewelry", href: "/what-we-buy/jewelry-buyers" },
-    { label: "Diamonds", href: "/what-we-buy/sell-diamonds-nyc" },
+    { label: "Gold", href: "/gold" },
+    { label: "Watches", href: "/watches" },
+    { label: "Jewelry", href: "/jewelry" },
+    { label: "Diamonds", href: "/diamonds" },
     { label: "About", href: "/about-us" },
     { label: "Contact", href: "/contact-us" },
 ];

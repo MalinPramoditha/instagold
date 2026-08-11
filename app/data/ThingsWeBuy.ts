@@ -6,7 +6,7 @@ import heroGold from "@/public/assets/hero-gold-refined.jpg";
 import watchImage from "@/public/assets/watch-feature.jpg";
 
 
-export const CATEGORIES = [
+export const ThingsWeBuy = [
     {
         title: "Gold & Precious Metals",
         body: "Jewelry, bullion, coins, scrap, platinum and silver — weighed and karat-tested in front of you at live spot prices.",
