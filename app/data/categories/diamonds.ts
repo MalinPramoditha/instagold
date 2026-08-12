@@ -7,6 +7,24 @@ export const diamondsData = {
         description: "Sell diamonds in NYC at our licensed 47th St location in Manhattan. Top cash for loose diamonds, rings and diamond jewelry, paid same day. Free offer in minutes.",
     },
 
+    schema: [
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "InstaGold",
+            url: "https://lux-offer-pro.lovable.app/cash-for-gold-nyc",
+            telephone: "+1-212-901-5705",
+            address: {
+                "@type": "PostalAddress",
+                streetAddress: "31 W 47th St, Suite 202",
+                addressLocality: "New York",
+                addressRegion: "NY",
+                postalCode: "10036",
+                addressCountry: "US",
+            },
+        }
+    ],
+
     hero: {
         eyebrow: "New York · West 47th Street",
         title: "Sell Diamonds in NYC",

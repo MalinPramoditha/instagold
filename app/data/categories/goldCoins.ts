@@ -14,7 +14,30 @@ export const goldCoinsData = {
         title: "Gold Coin Buyers NYC | Top Payouts | InstaGold",
         description: "Trusted gold coin buyers in NYC. We pay top rates for Krugerrands, Eagles, Maple Leafs and rare coins at our licensed 47th St location. Free offer in minutes.",
     },
-
+    schema: [
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "InstaGold",
+            url: "https://lux-offer-pro.lovable.app/cash-for-gold-nyc",
+            telephone: "+1-212-901-5705",
+            address: {
+                "@type": "PostalAddress",
+                streetAddress: "31 W 47th St, Suite 202",
+                addressLocality: "New York",
+                addressRegion: "NY",
+                postalCode: "10036",
+                addressCountry: "US",
+            },
+            areaServed: [
+                "Manhattan", "New York City", "Diamond District", "Midtown", "Tribeca",
+                "Financial District", "Chelsea", "SoHo", "Flatiron District", "West Village",
+                "NoMad", "Upper West Side", "Upper East Side", "Murray Hill", "Gramercy",
+                "Hudson Yards", "Lincoln Square", "DUMBO", "Brooklyn Heights", "Park Slope",
+                "Long Island City", "Hoboken", "Downtown Jersey City"
+            ].map((name) => ({ "@type": "Place", name })),
+        }
+    ],
     hero: {
         eyebrow: "New York · West 47th Street",
         title: "Gold Coin Buyers in NYC",

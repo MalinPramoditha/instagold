@@ -40,6 +40,7 @@ export async function generateMetadata({ params }: PageParams) {
     }
 
 
+
 }
 
 export default async function Page({ params }: PageParams) {
@@ -48,8 +49,31 @@ export default async function Page({ params }: PageParams) {
 
     if (!data) { return }
 
+    const faqSchema = data.faqs ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: data.faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+    } : null;
+
+    const allSchemas = [
+        ...(data.schema || []),
+        ...(faqSchema ? [faqSchema] : [])
+    ];
+
     return (
         <>
+            {allSchemas.map((schemaObj, index) => (
+                <script
+                    key={index}
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaObj) }}
+                />
+            ))}
+
             {data.hero && <HeroSection data={data.hero} />}
             <RateSection />
             <GetOfferSection />
