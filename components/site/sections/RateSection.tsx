@@ -5,50 +5,108 @@ import CountUp from "react-countup";
 import { Container } from "../ui";
 import { ArrowUp, ArrowDown, Minus, TrendingUp, TrendingDown } from "lucide-react";
 
+const ENDPOINTS = [
+    { key: "XAU", url: 'https://api.gold-api.com/price/XAU/USD' },
+    { key: "XAG", url: 'https://api.gold-api.com/price/XAG/USD' },
+    { key: "XPT", url: 'https://api.gold-api.com/price/XPT/USD' }
+];
+
 export function RateSection() {
-    const [rates, setRates] = useState<any[]>([]);
+    const [rates, setRates] = useState<Record<string, any>>({});
     const [prevPrices, setPrevPrices] = useState<Record<string, number>>({});
 
     useEffect(() => {
-        async function fetchLivePrices() {
+        let isMounted = true;
+        let currentIndex = 0;
+        let timeoutId: NodeJS.Timeout;
+
+        // 1. Fetch all three immediately so the UI is fully populated right away
+        async function fetchInitialAll() {
             try {
-                const [goldRes, silverRes, platinumRes] = await Promise.all([
-                    fetch('https://api.gold-api.com/price/XAU/USD'),
-                    fetch('https://api.gold-api.com/price/XAG/USD'),
-                    fetch('https://api.gold-api.com/price/XPT/USD')
-                ]);
+                const results = await Promise.all(
+                    ENDPOINTS.map(async (ep) => {
+                        const res = await fetch(ep.url);
+                        return res.json();
+                    })
+                );
 
-                const gold = await goldRes.json();
-                const silver = await silverRes.json();
-                const platinum = await platinumRes.json();
-
-                const newRates = [gold, silver, platinum];
-
-                setRates((currentRates) => {
-                    if (currentRates.length > 0) {
-                        const oldMap: Record<string, number> = {};
-                        currentRates.forEach((r: any) => {
-                            oldMap[r.symbol || r.metal] = Number(r.price);
-                        });
-                        setPrevPrices(oldMap);
-                    }
-                    return newRates;
-                });
+                if (isMounted) {
+                    const initialMap: Record<string, any> = {};
+                    results.forEach((data) => {
+                        const key = data.symbol || data.metal;
+                        initialMap[key] = data;
+                    });
+                    setRates(initialMap);
+                }
             } catch (error) {
-                console.error("Failed to fetch live rates:", error);
+                console.error("Failed to fetch initial rates:", error);
+            }
+
+            // Start the rolling staggered updates after the initial load
+            scheduleNextFetch();
+        }
+
+        // 2. Fetch one metal at a time on a rotating schedule
+        async function fetchSingleRate() {
+            if (document.hidden || !isMounted) return;
+
+            const endpoint = ENDPOINTS[currentIndex];
+
+            try {
+                const res = await fetch(endpoint.url);
+                const data = await res.json();
+
+                if (isMounted) {
+                    const key = data.symbol || data.metal || endpoint.key;
+
+                    setRates((currentRates) => {
+                        // Save previous price for this specific metal before updating
+                        if (currentRates[key]) {
+                            setPrevPrices((prev) => ({
+                                ...prev,
+                                [key]: Number(currentRates[key].price)
+                            }));
+                        }
+
+                        return {
+                            ...currentRates,
+                            [key]: data
+                        };
+                    });
+                }
+            } catch (error) {
+                console.error(`Failed to fetch ${endpoint.key}:`, error);
+            }
+
+            // Move to the next metal index, looping back to 0
+            currentIndex = (currentIndex + 1) % ENDPOINTS.length;
+
+            scheduleNextFetch();
+        }
+
+        function scheduleNextFetch() {
+            if (isMounted) {
+                // Fetch the next single metal every 10 seconds
+                timeoutId = setTimeout(fetchSingleRate, 10000);
             }
         }
 
-        fetchLivePrices();
-        const interval = setInterval(fetchLivePrices, 30000);
-        return () => clearInterval(interval);
+        // Trigger the initial batch load on mount
+        fetchInitialAll();
+
+        return () => {
+            isMounted = false;
+            clearTimeout(timeoutId);
+        };
     }, []);
+
+    const ratesArray = Object.values(rates);
 
     return (
         <div className="border-y border-hairline bg-surface-light">
             <Container>
                 <ul className="grid grid-cols-1 divide-y divide-hairline sm:grid-cols-3 sm:divide-x sm:divide-y-0">
-                    {rates.map((rate: any) => {
+                    {ratesArray.map((rate: any) => {
                         const key = rate.symbol || rate.metal;
                         const currentPrice = Number(rate.price);
                         const prevPrice = prevPrices[key] ?? currentPrice;
@@ -66,7 +124,7 @@ export function RateSection() {
                                             start={prevPrice}
                                             end={currentPrice}
                                             decimals={2}
-                                            duration={1.5}
+                                            duration={1.0}
                                             preserveValue
                                         />
                                     </h2>
