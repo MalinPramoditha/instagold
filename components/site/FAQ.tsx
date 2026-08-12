@@ -12,7 +12,7 @@ export function FAQ({ data }: { data: any }) {
                 </h2>
                 <Accordion defaultValue={["item-0"]} className="mx-auto mt-6 max-w-3xl text-left rounded-2xl border border-hairline bg-card px-5 py-1 sm:px-8 sm:py-2">
                     {data.map((faq: { q: string, a: string }, index: number) => (
-                        <AccordionItem value={`item-${index}`} key={index} className="group border-b border-hairline last:border-b-0">
+                        <AccordionItem value={`item-${index}`} key={index} className="group border-b border-hairline last:border-b-0 py-2">
                             <AccordionTrigger className="text-base font-semibold leading-snug text-foreground sm:text-lg">{faq.q}</AccordionTrigger>
                             <AccordionContent className="measure pb-6 text-base leading-relaxed text-muted-foreground">
                                 {faq.a}

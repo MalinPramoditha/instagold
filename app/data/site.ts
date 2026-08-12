@@ -43,17 +43,17 @@ export const NAV = [
             {
                 heading: "Gold & Precious Metals",
                 links: [
-                    { label: "Gold", href: "/golds" },
-                    { label: "Gold Coins", href: "/what-we-buy/gold-buyers-nyc" },
-                    { label: "Gold Bullion & Bars", href: "/what-we-buy/gold-buyers-nyc" },
-                    { label: "Scrap & Dental Gold", href: "/what-we-buy/gold-buyers-nyc" },
-                    { label: "Platinum & Silver", href: "/what-we-buy/gold-buyers-nyc" },
+                    { label: "Gold", href: "/cash-for-gold-nyc" },
+                    { label: "Gold Coins", href: "/gold-coin-buyers-nyc" },
+                    { label: "Gold Bullion & Bars", href: "/cash-for-gold-nyc" },
+                    { label: "Scrap & Dental Gold", href: "/cash-for-gold-nyc" },
+                    { label: "Platinum & Silver", href: "/cash-for-gold-nyc" },
                 ],
             },
             {
                 heading: "Watches",
                 links: [
-                    { label: "Luxury Watches", href: "/what-we-buy/watch-buyers-nyc" },
+                    { label: "Luxury Watches", href: "/sell-used-watch-nyc" },
                     { label: "Rolex", href: "/what-we-buy/watch-buyers-nyc/rolex-watch-buyers" },
                     { label: "Patek Philippe", href: "/what-we-buy/watch-buyers-nyc/patek-phillipe-watch-buyers" },
                     { label: "Audemars Piguet", href: "/what-we-buy/watch-buyers-nyc/audemars-piguet-watch-buyers" },
@@ -63,19 +63,20 @@ export const NAV = [
             {
                 heading: "Diamonds & Jewelry",
                 links: [
-                    { label: "Diamonds", href: "/what-we-buy/sell-diamonds-nyc" },
-                    { label: "Fine Jewelry", href: "/what-we-buy/jewelry-buyers" },
-                    { label: "Estate Pieces", href: "/what-we-buy/jewelry-buyers" },
+                    { label: "Diamonds", href: "/sell-diamonds-nyc" },
+                    { label: "Fine Jewelry", href: "/sell-jewelry-for-cash-nyc" },
+                    { label: "Estate Pieces", href: "/sell-jewelry-for-cash-nyc" },
                 ],
             },
         ],
     },
-    { label: "Gold", href: "/gold" },
-    { label: "Watches", href: "/watches" },
-    { label: "Jewelry", href: "/jewelry" },
-    { label: "Diamonds", href: "/diamonds" },
-    { label: "About", href: "/about-us" },
-    { label: "Contact", href: "/contact-us" },
+    { label: "Gold", href: "/cash-for-gold-nyc" },
+    { label: "Watches", href: "/sell-used-watch-nyc" },
+    { label: "Jewelry", href: "/sell-jewelry-for-cash-nyc" },
+    { label: "Diamonds", href: "/sell-diamonds-nyc" },
+    { label: "Blog", href: "/blog" },
+    { label: "About", href: "/about" },
+    { label: "Contact", href: "/contact" },
 ];
 
 

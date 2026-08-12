@@ -5,12 +5,12 @@ export function Subcategory({ data }: { data: any }) {
     return (
         <Section tone="white" labelledBy="buy-title">
             <Container>
-                <Eyebrow>What we buy</Eyebrow>
+                <Eyebrow>{data.eyebrow}</Eyebrow>
                 <h2 id="buy-title" className="mt-3 text-2xl leading-tight sm:text-3xl">
-                    What Gold We Buy
+                    {data.title}
                 </h2>
                 <p className="mt-3 max-w-2xl text-base leading-relaxed text-muted-foreground">
-                    We pay cash for gold in every form and every karat, from 10K to 24K.
+                    {data.description}
                 </p>
                 <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                     {data.items?.map(({ icon: Icon, title, body }: any) => (
@@ -21,6 +21,11 @@ export function Subcategory({ data }: { data: any }) {
                         </li>
                     ))}
                 </ul>
+                {data.secondary_description && (
+                    <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground">
+                        {data.secondary_description}
+                    </p>
+                )}
                 <div className="mt-8">
                     <CTA href={SITE.offerUrl}>Get My Free Offer</CTA>
                 </div>

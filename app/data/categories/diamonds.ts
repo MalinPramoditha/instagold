@@ -1,15 +1,5 @@
-import {
-    BadgeCheck,
-    Banknote,
-    Check,
-    Coins,
-    Gem,
-    LineChart,
-    MapPin,
-    Recycle,
-    Layers,
-    Diamond,
-} from "lucide-react";
+import { BadgeCheck, Banknote, Check, Gem, Heart, MapPin, ScanSearch, Sparkles, LineChart } from "lucide-react";
+
 
 export const diamondsData = {
     meta: {
@@ -19,12 +9,12 @@ export const diamondsData = {
 
     hero: {
         eyebrow: "New York · West 47th Street",
-        title: "Cash for Gold in NYC",
+        title: "Sell Diamonds in NYC",
         image: {
-            title: "hero-gold-refined",
+            title: "diamonds-hero",
             alt: "",
         },
-        description: "Cash for gold in NYC starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell."
+        description: "Sell diamonds in NYC with InstaGold, a licensed diamond buyer on 47th Street in the Diamond District, steps from Rockefeller Center and Fifth Avenue. We pay top cash for loose diamonds, engagement rings, and diamond jewelry. We grade every stone in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
 
     process: {
@@ -55,8 +45,8 @@ export const diamondsData = {
 
     companyDetails: {
         eyebrow: "Why InstaGold",
-        title: "Why Sell Your Gold to InstaGold",
-        description: "We make selling gold simple, fair, and fast.",
+        title: "Why Sell Your Diamonds to InstaGold",
+        description: "We make selling diamonds in Manhattan simple, fair, and fast.",
         items: [
             {
                 icon: BadgeCheck,
@@ -83,42 +73,43 @@ export const diamondsData = {
 
     whatWeBuy: {
         eyebrow: "What we buy",
-        title: "What Gold We Buy",
-        description: "We pay cash for gold in every form and every karat, from 10K to 24K.",
+        title: "Diamonds We Buy",
+        description: "We buy diamonds of every shape, size, and setting, certified or not.",
         items: [
             {
                 icon: Gem,
-                title: "Gold Jewelry",
-                body: "Chains, rings, bracelets, earrings, broken or scrap.",
+                title: "Loose Diamonds",
+                body: "Round, princess, cushion, oval, emerald, and all cuts.",
             },
             {
-                icon: Coins,
-                title: "Gold Coins",
-                body: "Krugerrands, American Eagles, Maple Leafs, and rare coins.",
+                icon: Heart,
+                title: "Engagement Rings",
+                body: "Solitaires, halos, and diamond wedding sets.",
             },
             {
-                icon: Layers,
-                title: "Gold Bullion",
-                body: "Bars and rounds, from 1 gram to 1 kilo.",
+                icon: Sparkles,
+                title: "Diamond Jewelry",
+                body: "Tennis bracelets, pendants, studs, and estate pieces.",
             },
             {
-                icon: Recycle,
-                title: "Scrap and Dental Gold",
-                body: "Broken pieces, casting, and dental gold.",
+                icon: BadgeCheck,
+                title: "Certified Diamonds",
+                body: "GIA, IGI, and other graded stones.",
             },
-        ]
+        ],
+        secondary_description: "We also buy fancy color diamonds and large carat stones.",
     },
 
     about: {
         align: "left",
         tone: "stone",
         image: {
-            title: "cat-gold",
+            title: "cat-diamonds",
             alt: "Specialist appraising a piece in the InstaGold 47th Street office"
         },
         eyebrow: "Fair value",
-        title: "Get More Cash for Your Gold",
-        description: `Most sellers get less than their gold is worth.\n\nPawn shops and mail-in services quote below market and count on you not checking the spot price. On just a few ounces, the difference between a fair offer and a lowball can be thousands of dollars.\n\nInstaGold pays against the live market rate. We weigh and test your gold in front of you and show you exactly how your offer is calculated. Licensed, clear, and same day.`,
+        title: "Get More for Your Diamonds",
+        description: `Most people who sell diamonds are underpaid. Pawn shops and quick buyers lowball on grading and count on you not knowing your stone's real quality.\n\nOn a high-clarity or large carat diamond, that can mean thousands of dollars lost.\n\nInstaGold grades your diamond on cut, color, clarity, and carat in front of you, prices it against real market data, and shows you how the offer is built. Licensed, clear, and same day.`,
         list: [],
         link_description: "",
         link: {
@@ -136,8 +127,8 @@ export const diamondsData = {
             alt: "Specialist appraising a piece in the InstaGold 47th Street office"
         },
         eyebrow: "Location",
-        title: "Where to Sell Gold in NYC",
-        description: "InstaGold is located at 31 W 47th Street in the heart of the Diamond District, the most trusted place to sell gold in New York. We serve sellers from across Manhattan and the greater NYC area. Walk in during business hours or get an offer online first.",
+        title: "Where to Sell Diamonds in NYC",
+        description: "InstaGold is located at 31 W 47th Street in the Diamond District, minutes from Rockefeller Center, Bryant Park, and Grand Central. It is the most trusted place to sell diamonds in Manhattan. We buy from sellers across New York City and the tri-state area. Walk in during business hours or get an offer online first.",
         list: [
             "Prime Diamond District location: 31 W 47th Street, Suite 202",
             "Steps from Times Square & Grand Central Terminal",
@@ -183,16 +174,20 @@ export const diamondsData = {
 
     faqs: [
         {
-            q: "How much cash can I get for my gold in NYC?",
-            a: "Your payout is based on the weight, karat, and the live market price on the day you sell. We calculate it in front of you against the current spot rate.",
+            q: "How much can I get for my diamond?",
+            a: "It depends on the cut, color, clarity, and carat weight. We grade your diamond in front of you and price it against current market data, then show you how the offer is calculated.",
+        },
+        {
+            q: "Do you buy diamonds without a certificate?",
+            a: "Yes. A GIA or IGI certificate helps confirm value, but we grade and buy uncertified diamonds too.",
+        },
+        {
+            q: "Do you buy engagement rings?",
+            a: "Yes. We buy engagement rings, wedding sets, and all diamond jewelry, and pay for both the stones and the metal.",
         },
         {
             q: "Do I need an appointment?",
-            a: "No. Walk in to our 47th Street location during business hours, or submit a free offer online first to save time.",
-        },
-        {
-            q: "What types of gold do you buy?",
-            a: "All of it. Jewelry, coins, bullion, and scrap or dental gold, from 10K to 24K, in any condition.",
+            a: "No. Walk in to our 47th Street location during business hours, or submit a free offer online first.",
         },
         {
             q: "How do you pay?",
@@ -200,12 +195,12 @@ export const diamondsData = {
         },
         {
             q: "Is InstaGold licensed?",
-            a: "Yes. We are a licensed and bonded NYC buyer, Lic# 2134780-DCWP, at 31 W 47th Street, Suite 202.",
+            a: "Yes. We are a licensed NYC buyer, Lic# 2134780-DCWP, at 31 W 47th Street, Suite 202.",
         },
     ],
 
     cta: {
-        title: "Turn Your Gold Into Cash Today",
+        title: "Sell Your Diamonds Today",
         intro: "Get a free, no-obligation offer in minutes, then decide.",
         primaryLabel: "Get My Free Offer"
     }

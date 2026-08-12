@@ -50,22 +50,18 @@ export default async function Page({ params }: PageParams) {
 
     return (
         <>
-            <HeroSection data={data.hero} />
-            <RateSection data={data.rates} />
+            {data.hero && <HeroSection data={data.hero} />}
+            <RateSection />
             <GetOfferSection />
             <TrustStrip />
-            <CompanyDetails data={data.companyDetails} />
-            <Subcategory data={data.whatWeBuy} />
-            <AboutSection data={data.about} />
-            <Process data={data.process} />
-            <AboutSection data={data.location} />
-            <Testimonials data={data.testimonials} />
-            <FAQ data={data.faqs} />
-            <CTASection
-                title={data.cta.title}
-                intro={data.cta.intro}
-                primaryLabel={data.cta.primaryLabel}
-            />
+            {data.companyDetails && <CompanyDetails data={data.companyDetails} />}
+            {data.whatWeBuy && <Subcategory data={data.whatWeBuy} />}
+            {data.about && <AboutSection data={data.about} />}
+            {data.process && <Process data={data.process} />}
+            {data.location && <AboutSection data={data.location} />}
+            {data.testimonials && <Testimonials data={data.testimonials} />}
+            {data.faqs && <FAQ data={data.faqs} />}
+            {data.cta && <CTASection data={data.cta} />}
         </>
     )
 

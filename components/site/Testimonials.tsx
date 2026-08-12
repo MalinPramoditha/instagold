@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, FreeMode } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import ReviewCard from "./blocks/ReviewCard";
+import { ReviewCard } from "./blocks/ReviewCard";
 
 export function Testimonials({
     data,

@@ -1,15 +1,11 @@
 import { Container, Eyebrow, Section } from "./ui";
 import { SITE } from "@/app/data/site";
 
-export function Process({
-    data,
-    tone = "stone",
-}: {
-    data: any,
-    tone?: "stone" | "ivory";
-}) {
+
+export function Process({ data }: { data: any, }) {
+
     return (
-        <Section tone={tone} labelledBy="process-title">
+        <Section tone={data.tone} labelledBy="process-title">
             <Container>
                 <Eyebrow>{data.eyebrow}</Eyebrow>
                 <h2 id="process-title" className="mt-3 max-w-2xl text-2xl leading-tight sm:text-3xl">

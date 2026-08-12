@@ -1,37 +1,25 @@
-import {
-    BadgeCheck,
-    Banknote,
-    Check,
-    Coins,
-    Gem,
-    LineChart,
-    MapPin,
-    Recycle,
-    Layers,
-    Diamond,
-} from "lucide-react";
+import { BadgeCheck, Banknote, Check, Crown, Gem, LineChart, MapPin, Sparkles } from "lucide-react";
 
-export const goldData = {
+export const jewelryData = {
     meta: {
-        title: "Cash for Gold NYC | Same-Day Payout | InstaGold",
-        description: "Cash for gold in NYC at our licensed 47th St location. Top payouts on gold jewelry, coins and bullion, paid same day. Get a free offer in minutes.",
+        title: "Sell Jewelry for Cash NYC | Same-Day | InstaGold",
+        description: "Sell jewelry for cash in NYC at our licensed 47th St location in Manhattan. Top payouts on gold, diamond and designer jewelry, paid same day. Free offer in minutes.",
     },
 
     hero: {
         eyebrow: "New York · West 47th Street",
-        title: "Cash for Gold in NYC",
+        title: "Sell Jewelry for Cash in NYC",
         image: {
-            title: "hero-gold-refined",
-            alt: "",
+            title: "jewelry-hero",
+            alt: "Gold and diamond jewelry on travertine stone at the InstaGold 47th Street office",
         },
-        description: "Cash for gold in NYC starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell."
+        description: "Sell jewelry for cash in NYC with InstaGold, a licensed buyer on 47th Street in the Diamond District, steps from Rockefeller Center and Fifth Avenue. We pay top rates for gold, diamond, and designer jewelry. We test and value each piece in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
 
     process: {
         eyebrow: "How it works",
         title: "How It Works",
         ctaLabel: "Get My Free Offer",
-        tone: "ivory",
         steps: [
             {
                 title: "Get a Free Offer",
@@ -39,7 +27,7 @@ export const goldData = {
             },
             {
                 title: "Free Evaluation",
-                body: "We weigh, test, and price your gold in front of you at live rates.",
+                body: "We test the metal, grade the stones, and value your jewelry in front of you.",
             },
             {
                 title: "Get Paid Same Day",
@@ -56,12 +44,12 @@ export const goldData = {
 
     companyDetails: {
         eyebrow: "Why InstaGold",
-        title: "Why Sell Your Gold to InstaGold",
-        description: "We make selling gold simple, fair, and fast.",
+        title: "Why Sell Your Jewelry to InstaGold",
+        description: "We make selling jewelry in Manhattan simple, fair, and fast.",
         items: [
             {
                 icon: BadgeCheck,
-                title: "Licensed and Bonded",
+                title: "Licensed Buyer",
                 body: "NYC Lic# 2134780-DCWP.",
             },
             {
@@ -71,55 +59,56 @@ export const goldData = {
             },
             {
                 icon: LineChart,
-                title: "Live Market Pricing",
-                body: "Every offer is based on the current gold spot price.",
+                title: "Fair Market Offers",
+                body: "Priced on metal, stones, and brand value.",
             },
             {
                 icon: MapPin,
                 title: "Diamond District Location",
-                body: "31 W 47th Street, Suite 202.",
+                body: "31 W 47th Street, Suite 202, in the heart of Manhattan.",
             },
         ]
     },
 
     whatWeBuy: {
         eyebrow: "What we buy",
-        title: "What Gold We Buy",
-        description: "We pay cash for gold in every form and every karat, from 10K to 24K.",
+        title: "Jewelry We Buy",
+        description: "We buy fine jewelry in every form and condition, whole, broken, or as a full estate.",
         items: [
             {
-                icon: Gem,
+                icon: Sparkles,
                 title: "Gold Jewelry",
-                body: "Chains, rings, bracelets, earrings, broken or scrap.",
+                body: "Chains, rings, bracelets, and earrings, 10K to 24K.",
             },
             {
-                icon: Coins,
-                title: "Gold Coins",
-                body: "Krugerrands, American Eagles, Maple Leafs, and rare coins.",
+                icon: Gem,
+                title: "Diamond Jewelry",
+                body: "Engagement rings, tennis bracelets, and loose diamonds.",
             },
             {
-                icon: Layers,
-                title: "Gold Bullion",
-                body: "Bars and rounds, from 1 gram to 1 kilo.",
+                icon: Crown,
+                title: "Designer and Signed Jewelry",
+                body: "Cartier, Tiffany, Van Cleef, Bulgari, and more.",
             },
             {
-                icon: Recycle,
-                title: "Scrap and Dental Gold",
-                body: "Broken pieces, casting, and dental gold.",
+                icon: BadgeCheck,
+                title: "Estate and Antique Jewelry",
+                body: "Inherited pieces, vintage, and full collections.",
             },
-        ]
+        ],
+        secondary_description: "We also buy platinum jewelry, watches, and precious gemstones.",
     },
 
     about: {
         align: "left",
         tone: "stone",
         image: {
-            title: "cat-gold",
-            alt: "Specialist appraising a piece in the InstaGold 47th Street office"
+            title: "cat-jewelry",
+            alt: "Specialist testing a gold and diamond ring during an InstaGold jewelry valuation"
         },
         eyebrow: "Fair value",
-        title: "Get More Cash for Your Gold",
-        description: `Most sellers get less than their gold is worth.\n\nPawn shops and mail-in services quote below market and count on you not checking the spot price. On just a few ounces, the difference between a fair offer and a lowball can be thousands of dollars.\n\nInstaGold pays against the live market rate. We weigh and test your gold in front of you and show you exactly how your offer is calculated. Licensed, clear, and same day.`,
+        title: "Get More Cash for Your Jewelry",
+        description: `Most people who sell jewelry are underpaid. Pawn shops and mail-in buyers value gold only and ignore the diamonds, gemstones, and brand.\n\nOn a designer or diamond piece, that can mean thousands of dollars lost.\n\nInstaGold values every part of your jewelry, the metal, the stones, and the maker, and pays for all of it. We test each piece in front of you and show you how the offer is built. Licensed, clear, and same day.`,
         list: [],
         link_description: "",
         link: {
@@ -134,11 +123,11 @@ export const goldData = {
         tone: "white",
         image: {
             title: "office-appraisal",
-            alt: "Specialist appraising a piece in the InstaGold 47th Street office"
+            alt: "InstaGold specialist valuing jewelry at the 47th Street Diamond District office"
         },
         eyebrow: "Location",
-        title: "Where to Sell Gold in NYC",
-        description: "InstaGold is located at 31 W 47th Street in the heart of the Diamond District, the most trusted place to sell gold in New York. We serve sellers from across Manhattan and the greater NYC area. Walk in during business hours or get an offer online first.",
+        title: "Where to Sell Jewelry in NYC",
+        description: "InstaGold is located at 31 W 47th Street in the Diamond District, minutes from Rockefeller Center, Bryant Park, and Grand Central. It is the most trusted place to sell jewelry for cash in Manhattan. We buy from sellers across New York City and the tri-state area. Walk in during business hours or get an offer online first.",
         list: [
             "Prime Diamond District location: 31 W 47th Street, Suite 202",
             "Steps from Times Square & Grand Central Terminal",
@@ -184,16 +173,20 @@ export const goldData = {
 
     faqs: [
         {
-            q: "How much cash can I get for my gold in NYC?",
-            a: "Your payout is based on the weight, karat, and the live market price on the day you sell. We calculate it in front of you against the current spot rate.",
+            q: "How much cash can I get for my jewelry?",
+            a: "It depends on the metal, the stones, the brand, and the condition. We value every part of the piece and show you how the offer is calculated.",
+        },
+        {
+            q: "Do you buy broken or single-earring jewelry?",
+            a: "Yes. We buy jewelry whole, broken, or incomplete, and pay for the gold and any stones.",
+        },
+        {
+            q: "Do you buy designer jewelry for more than melt value?",
+            a: "Yes. For signed pieces from makers like Cartier or Tiffany, we pay brand value, not just metal weight.",
         },
         {
             q: "Do I need an appointment?",
-            a: "No. Walk in to our 47th Street location during business hours, or submit a free offer online first to save time.",
-        },
-        {
-            q: "What types of gold do you buy?",
-            a: "All of it. Jewelry, coins, bullion, and scrap or dental gold, from 10K to 24K, in any condition.",
+            a: "No. Walk in to our 47th Street location during business hours, or submit a free offer online first.",
         },
         {
             q: "How do you pay?",
@@ -201,12 +194,12 @@ export const goldData = {
         },
         {
             q: "Is InstaGold licensed?",
-            a: "Yes. We are a licensed and bonded NYC buyer, Lic# 2134780-DCWP, at 31 W 47th Street, Suite 202.",
+            a: "Yes. We are a licensed NYC buyer, Lic# 2134780-DCWP, at 31 W 47th Street, Suite 202.",
         },
     ],
 
     cta: {
-        title: "Turn Your Gold Into Cash Today",
+        title: "Sell Your Jewelry Today",
         intro: "Get a free, no-obligation offer in minutes, then decide.",
         primaryLabel: "Get My Free Offer"
     }

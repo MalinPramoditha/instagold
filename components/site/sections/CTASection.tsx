@@ -6,27 +6,19 @@ import Link from "next/link";
 // import Cta from "./Cta";
 
 
-export function CTASection({
-    title,
-    intro,
-    primaryLabel = "Get a Free Offer",
-}: {
-    title: string;
-    intro?: string;
-    primaryLabel?: string;
-}) {
+export function CTASection({ data }: { data: any }) {
     return (
         <Section tone="light" labelledBy="final-cta-title">
             <Container className="text-center">
                 <h2 id="final-cta-title" className="mx-auto max-w-2xl text-2xl leading-tight sm:text-3xl">
-                    {title}
+                    {data.title}
                 </h2>
-                {intro ? (
-                    <p className="mx-auto mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">{intro}</p>
+                {data.intro ? (
+                    <p className="mx-auto mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">{data.intro}</p>
                 ) : null}
                 <div className="mt-7 flex justify-center">
                     <Link href={SITE.offerUrl}>
-                        <Button variant="default" size="lg" className="bg-champagne hover:bg-brand-hover text-ink px-7 py-6"> {primaryLabel}</Button>
+                        <Button variant="default" size="lg" className="bg-champagne hover:bg-brand-hover text-ink px-7 py-6"> {data.primaryLabel ? data.primaryLabel : "Get My Free Offer"}</Button>
                     </Link>
                 </div>
                 {/* <AlternativeContact className="mt-5 text-sm" /> */}

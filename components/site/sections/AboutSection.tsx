@@ -1,9 +1,7 @@
-import { Section, Container, Eyebrow } from "../ui";
-import { Check } from "lucide-react";
 import { SITE } from "@/app/data/site";
-import officeImage from "@/public/assets/office-appraisal.jpg";
-import { WHY } from "@/app/data/Why";
 import { cn } from "@/lib/utils";
+import { Check } from "lucide-react";
+import { Container, Eyebrow, Section } from "../ui";
 
 
 export function AboutSection({ data }: { data: any }) {

@@ -3,43 +3,40 @@ import {
     Banknote,
     Check,
     Coins,
-    Gem,
+    Landmark,
     LineChart,
     MapPin,
-    Recycle,
-    Layers,
-    Diamond,
+    Sparkles,
 } from "lucide-react";
 
-export const goldData = {
+export const goldCoinsData = {
     meta: {
-        title: "Cash for Gold NYC | Same-Day Payout | InstaGold",
-        description: "Cash for gold in NYC at our licensed 47th St location. Top payouts on gold jewelry, coins and bullion, paid same day. Get a free offer in minutes.",
+        title: "Gold Coin Buyers NYC | Top Payouts | InstaGold",
+        description: "Trusted gold coin buyers in NYC. We pay top rates for Krugerrands, Eagles, Maple Leafs and rare coins at our licensed 47th St location. Free offer in minutes.",
     },
 
     hero: {
         eyebrow: "New York · West 47th Street",
-        title: "Cash for Gold in NYC",
+        title: "Gold Coin Buyers in NYC",
         image: {
-            title: "hero-gold-refined",
-            alt: "",
+            title: "gold-coins-hero",
+            alt: "American Gold Eagle, Krugerrand and Canadian Maple Leaf coins on stone at the InstaGold 47th Street office",
         },
-        description: "Cash for gold in NYC starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell."
+        description: "Gold coin buyers in NYC do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
 
     process: {
         eyebrow: "How it works",
         title: "How It Works",
         ctaLabel: "Get My Free Offer",
-        tone: "ivory",
         steps: [
             {
                 title: "Get a Free Offer",
-                body: "Submit the form or walk in and tell us what you have.",
+                body: "Submit the form or walk in and tell us what coins you have.",
             },
             {
                 title: "Free Evaluation",
-                body: "We weigh, test, and price your gold in front of you at live rates.",
+                body: "We test, weigh, and value your coins in front of you.",
             },
             {
                 title: "Get Paid Same Day",
@@ -56,8 +53,8 @@ export const goldData = {
 
     companyDetails: {
         eyebrow: "Why InstaGold",
-        title: "Why Sell Your Gold to InstaGold",
-        description: "We make selling gold simple, fair, and fast.",
+        title: "Why Sell Your Gold Coins to InstaGold",
+        description: "We make selling gold coins simple, fair, and fast.",
         items: [
             {
                 icon: BadgeCheck,
@@ -84,30 +81,31 @@ export const goldData = {
 
     whatWeBuy: {
         eyebrow: "What we buy",
-        title: "What Gold We Buy",
-        description: "We pay cash for gold in every form and every karat, from 10K to 24K.",
+        title: "Gold Coins We Buy",
+        description: "We buy bullion coins and numismatic coins in any quantity, from single pieces to full collections.",
         items: [
             {
-                icon: Gem,
-                title: "Gold Jewelry",
-                body: "Chains, rings, bracelets, earrings, broken or scrap.",
-            },
-            {
                 icon: Coins,
-                title: "Gold Coins",
-                body: "Krugerrands, American Eagles, Maple Leafs, and rare coins.",
+                title: "American Gold Eagles",
+                body: "The most traded US gold coin.",
             },
             {
-                icon: Layers,
-                title: "Gold Bullion",
-                body: "Bars and rounds, from 1 gram to 1 kilo.",
+                icon: Landmark,
+                title: "Krugerrands",
+                body: "The classic one ounce bullion coin.",
             },
             {
-                icon: Recycle,
-                title: "Scrap and Dental Gold",
-                body: "Broken pieces, casting, and dental gold.",
+                icon: Sparkles,
+                title: "Canadian Maple Leafs",
+                body: "24 karat bullion, any year.",
             },
-        ]
+            {
+                icon: BadgeCheck,
+                title: "Rare and Numismatic Coins",
+                body: "Pre-1933 US coins, sovereigns, and collectible pieces.",
+            },
+        ],
+        secondary_description: "We also buy Britannias, Philharmonics, Pandas, and gold coin lots of every kind.",
     },
 
     about: {
@@ -115,11 +113,11 @@ export const goldData = {
         tone: "stone",
         image: {
             title: "cat-gold",
-            alt: "Specialist appraising a piece in the InstaGold 47th Street office"
+            alt: "Gold coins and chains weighed on a jeweler's scale during an InstaGold evaluation"
         },
         eyebrow: "Fair value",
-        title: "Get More Cash for Your Gold",
-        description: `Most sellers get less than their gold is worth.\n\nPawn shops and mail-in services quote below market and count on you not checking the spot price. On just a few ounces, the difference between a fair offer and a lowball can be thousands of dollars.\n\nInstaGold pays against the live market rate. We weigh and test your gold in front of you and show you exactly how your offer is calculated. Licensed, clear, and same day.`,
+        title: "Get More for Your Gold Coins",
+        description: `Most coin sellers are underpaid. Pawn shops and mail-in buyers pay melt value only and ignore what a coin is really worth.\n\nFor rare or collectible coins, that can mean losing hundreds or thousands of dollars in numismatic value.\n\nInstaGold values your coins two ways, by live metal price and by collectible worth, and pays you the higher of the two. We show you exactly how the offer is calculated. Licensed, clear, and same day.`,
         list: [],
         link_description: "",
         link: {
@@ -134,11 +132,11 @@ export const goldData = {
         tone: "white",
         image: {
             title: "office-appraisal",
-            alt: "Specialist appraising a piece in the InstaGold 47th Street office"
+            alt: "InstaGold specialist testing a gold coin at the 47th Street Diamond District office"
         },
         eyebrow: "Location",
-        title: "Where to Sell Gold in NYC",
-        description: "InstaGold is located at 31 W 47th Street in the heart of the Diamond District, the most trusted place to sell gold in New York. We serve sellers from across Manhattan and the greater NYC area. Walk in during business hours or get an offer online first.",
+        title: "Where to Sell Gold Coins in NYC",
+        description: "InstaGold is located at 31 W 47th Street in the heart of the Diamond District, the most trusted place to sell gold coins in New York. We buy from sellers across Manhattan and the greater NYC area. Walk in during business hours or get an offer online first.",
         list: [
             "Prime Diamond District location: 31 W 47th Street, Suite 202",
             "Steps from Times Square & Grand Central Terminal",
@@ -184,16 +182,16 @@ export const goldData = {
 
     faqs: [
         {
-            q: "How much cash can I get for my gold in NYC?",
-            a: "Your payout is based on the weight, karat, and the live market price on the day you sell. We calculate it in front of you against the current spot rate.",
+            q: "How much are my gold coins worth?",
+            a: "It depends on the coin. Bullion coins are valued at the live gold price by weight and purity. Rare coins are valued for their collectible worth. We pay the higher of the two and show you the math.",
+        },
+        {
+            q: "Do you buy single coins or only collections?",
+            a: "Both. We buy single coins and full collections, in any quantity.",
         },
         {
             q: "Do I need an appointment?",
-            a: "No. Walk in to our 47th Street location during business hours, or submit a free offer online first to save time.",
-        },
-        {
-            q: "What types of gold do you buy?",
-            a: "All of it. Jewelry, coins, bullion, and scrap or dental gold, from 10K to 24K, in any condition.",
+            a: "No. Walk in to our 47th Street location during business hours, or submit a free offer online first.",
         },
         {
             q: "How do you pay?",
@@ -206,7 +204,7 @@ export const goldData = {
     ],
 
     cta: {
-        title: "Turn Your Gold Into Cash Today",
+        title: "Sell Your Gold Coins Today",
         intro: "Get a free, no-obligation offer in minutes, then decide.",
         primaryLabel: "Get My Free Offer"
     }

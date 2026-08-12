@@ -1,45 +1,33 @@
-import {
-    BadgeCheck,
-    Banknote,
-    Check,
-    Coins,
-    Gem,
-    LineChart,
-    MapPin,
-    Recycle,
-    Layers,
-    Diamond,
-} from "lucide-react";
+import { BadgeCheck, Banknote, Check, Crown, Gem, LineChart, MapPin, Watch } from "lucide-react";
 
-export const goldData = {
+export const watchesData = {
     meta: {
-        title: "Cash for Gold NYC | Same-Day Payout | InstaGold",
-        description: "Cash for gold in NYC at our licensed 47th St location. Top payouts on gold jewelry, coins and bullion, paid same day. Get a free offer in minutes.",
+        title: "Sell Used Watch NYC | Same-Day Cash | InstaGold",
+        description: "Sell your used watch in NYC for top cash. We buy Rolex, Patek, AP and more at our licensed 47th St location in Manhattan. Free offer in minutes, paid same day.",
     },
 
     hero: {
         eyebrow: "New York · West 47th Street",
-        title: "Cash for Gold in NYC",
+        title: "Sell a Used Watch in NYC",
         image: {
-            title: "hero-gold-refined",
-            alt: "",
+            title: "watches-hero",
+            alt: "Pre-owned luxury wristwatches on travertine stone at the InstaGold 47th Street office",
         },
-        description: "Cash for gold in NYC starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell."
+        description: "Sell a used watch in NYC the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, steps from Rockefeller Center and Fifth Avenue, paying top cash for luxury and everyday watches. We inspect and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
 
     process: {
         eyebrow: "How it works",
         title: "How It Works",
         ctaLabel: "Get My Free Offer",
-        tone: "ivory",
         steps: [
             {
                 title: "Get a Free Offer",
                 body: "Submit the form or walk in and tell us what you have.",
             },
             {
-                title: "Free Evaluation",
-                body: "We weigh, test, and price your gold in front of you at live rates.",
+                title: "Free Inspection",
+                body: "We authenticate, inspect, and value your watch in front of you.",
             },
             {
                 title: "Get Paid Same Day",
@@ -56,12 +44,12 @@ export const goldData = {
 
     companyDetails: {
         eyebrow: "Why InstaGold",
-        title: "Why Sell Your Gold to InstaGold",
-        description: "We make selling gold simple, fair, and fast.",
+        title: "Why Sell Your Watch to InstaGold",
+        description: "We make selling a watch in Manhattan simple, fair, and fast.",
         items: [
             {
                 icon: BadgeCheck,
-                title: "Licensed and Bonded",
+                title: "Licensed Buyer",
                 body: "NYC Lic# 2134780-DCWP.",
             },
             {
@@ -71,55 +59,56 @@ export const goldData = {
             },
             {
                 icon: LineChart,
-                title: "Live Market Pricing",
-                body: "Every offer is based on the current gold spot price.",
+                title: "Fair Market Offers",
+                body: "Priced against real resale and auction data.",
             },
             {
                 icon: MapPin,
                 title: "Diamond District Location",
-                body: "31 W 47th Street, Suite 202.",
+                body: "31 W 47th Street, Suite 202, in the heart of Manhattan.",
             },
         ]
     },
 
     whatWeBuy: {
-        eyebrow: "What we buy",
-        title: "What Gold We Buy",
-        description: "We pay cash for gold in every form and every karat, from 10K to 24K.",
+        eyebrow: "Brands",
+        title: "Watch Brands We Buy",
+        description: "We buy used and pre-owned watches from every major maker, working or not, with or without box and papers.",
         items: [
             {
+                icon: Crown,
+                title: "Rolex",
+                body: "Submariner, Datejust, Daytona, GMT-Master, and all models.",
+            },
+            {
                 icon: Gem,
-                title: "Gold Jewelry",
-                body: "Chains, rings, bracelets, earrings, broken or scrap.",
+                title: "Patek Philippe",
+                body: "Nautilus, Aquanaut, Calatrava, and complications.",
             },
             {
-                icon: Coins,
-                title: "Gold Coins",
-                body: "Krugerrands, American Eagles, Maple Leafs, and rare coins.",
+                icon: BadgeCheck,
+                title: "Audemars Piguet",
+                body: "Royal Oak, Royal Oak Offshore, and more.",
             },
             {
-                icon: Layers,
-                title: "Gold Bullion",
-                body: "Bars and rounds, from 1 gram to 1 kilo.",
+                icon: Watch,
+                title: "Other Luxury Brands",
+                body: "Omega, Cartier, Tudor, Breitling, IWC, and Jaeger-LeCoultre.",
             },
-            {
-                icon: Recycle,
-                title: "Scrap and Dental Gold",
-                body: "Broken pieces, casting, and dental gold.",
-            },
-        ]
+        ],
+        secondary_description: "We also buy vintage watches, watch lots, and estate collections.",
     },
 
     about: {
         align: "left",
         tone: "stone",
         image: {
-            title: "cat-gold",
-            alt: "Specialist appraising a piece in the InstaGold 47th Street office"
+            title: "watch-feature",
+            alt: "Specialist inspecting a pre-owned luxury watch with a loupe during an InstaGold valuation"
         },
         eyebrow: "Fair value",
-        title: "Get More Cash for Your Gold",
-        description: `Most sellers get less than their gold is worth.\n\nPawn shops and mail-in services quote below market and count on you not checking the spot price. On just a few ounces, the difference between a fair offer and a lowball can be thousands of dollars.\n\nInstaGold pays against the live market rate. We weigh and test your gold in front of you and show you exactly how your offer is calculated. Licensed, clear, and same day.`,
+        title: "Get More for Your Used Watch",
+        description: `Most people who sell a watch get underpaid. Pawn shops and quick-cash buyers offer a fraction of resale value and count on you not knowing the market.\n\nOn a luxury watch, that gap can be thousands of dollars left on the table.\n\nInstaGold prices your watch against real resale and auction data, inspects it in front of you, and shows you exactly how the offer is built. Licensed, clear, and same day.`,
         list: [],
         link_description: "",
         link: {
@@ -130,15 +119,15 @@ export const goldData = {
     },
 
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: {
             title: "office-appraisal",
-            alt: "Specialist appraising a piece in the InstaGold 47th Street office"
+            alt: "InstaGold specialist valuing a watch at the 47th Street Diamond District office"
         },
         eyebrow: "Location",
-        title: "Where to Sell Gold in NYC",
-        description: "InstaGold is located at 31 W 47th Street in the heart of the Diamond District, the most trusted place to sell gold in New York. We serve sellers from across Manhattan and the greater NYC area. Walk in during business hours or get an offer online first.",
+        title: "Where to Sell a Used Watch in NYC",
+        description: "InstaGold is located at 31 W 47th Street in the Diamond District, minutes from Rockefeller Center, Bryant Park, and Grand Central. It is the most trusted place to sell a used watch in Manhattan. We buy from sellers across New York City and the tri-state area. Walk in during business hours or get an offer online first.",
         list: [
             "Prime Diamond District location: 31 W 47th Street, Suite 202",
             "Steps from Times Square & Grand Central Terminal",
@@ -184,16 +173,20 @@ export const goldData = {
 
     faqs: [
         {
-            q: "How much cash can I get for my gold in NYC?",
-            a: "Your payout is based on the weight, karat, and the live market price on the day you sell. We calculate it in front of you against the current spot rate.",
+            q: "How much can I get for my used watch?",
+            a: "It depends on the brand, model, condition, and whether you have box and papers. We price against current resale and auction data and show you how the offer is calculated.",
+        },
+        {
+            q: "Do you buy watches without box or papers?",
+            a: "Yes. Box and papers help the value, but we buy watches with or without them.",
+        },
+        {
+            q: "Do you buy non-working or damaged watches?",
+            a: "Yes. We buy watches that are broken, scratched, or not running, and price them fairly.",
         },
         {
             q: "Do I need an appointment?",
-            a: "No. Walk in to our 47th Street location during business hours, or submit a free offer online first to save time.",
-        },
-        {
-            q: "What types of gold do you buy?",
-            a: "All of it. Jewelry, coins, bullion, and scrap or dental gold, from 10K to 24K, in any condition.",
+            a: "No. Walk in to our 47th Street location during business hours, or submit a free offer online first.",
         },
         {
             q: "How do you pay?",
@@ -201,12 +194,12 @@ export const goldData = {
         },
         {
             q: "Is InstaGold licensed?",
-            a: "Yes. We are a licensed and bonded NYC buyer, Lic# 2134780-DCWP, at 31 W 47th Street, Suite 202.",
+            a: "Yes. We are a licensed NYC buyer, Lic# 2134780-DCWP, at 31 W 47th Street, Suite 202.",
         },
     ],
 
     cta: {
-        title: "Turn Your Gold Into Cash Today",
+        title: "Sell Your Watch Today",
         intro: "Get a free, no-obligation offer in minutes, then decide.",
         primaryLabel: "Get My Free Offer"
     }

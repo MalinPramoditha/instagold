@@ -1,7 +1,7 @@
 import { Quote, Star, Users, Wallet } from "lucide-react";
 import { cn } from "@/lib/utils"
 
-export default function ReviewCard({ data }: { data: any }) {
+export function ReviewCard({ data }: { data: any }) {
     const { quote, name, category } = data;
     return (
         <div
