@@ -3,6 +3,7 @@ import { diamondsData } from "./diamonds";
 import { jewelryData } from "./jewelry";
 import { watchesData } from "./watches";
 import { goldCoinsData } from "./goldCoins";
+import { goldBullionData } from "./goldBullion";
 
 
 export const categoryData = {
@@ -11,4 +12,5 @@ export const categoryData = {
     'sell-jewelry-for-cash-nyc': jewelryData,
     'sell-used-watch-nyc': watchesData,
     'gold-coin-buyers-nyc': goldCoinsData,
+    'sell-gold-bullion-nyc': goldBullionData,
 }
