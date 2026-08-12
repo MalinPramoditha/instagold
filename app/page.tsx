@@ -11,7 +11,7 @@ import { AboutSection } from "@/components/site/sections/AboutSection";
 import { CTASection } from "@/components/site/sections/CTASection";
 import { Testimonials } from "../components/site/Testimonials";
 
-import { homeData } from "./data/home";
+import { homeData } from "./data/homeData";
 import { Metadata } from "next";
 
 const metaData: Metadata = {
