@@ -1,6 +1,11 @@
 
 
 export const homeData = {
+    meta: {
+        title: "Sell Gold in NYC | InstaGold Buyers Refinery, 47th Street",
+        description:
+            "Sell gold, bullion, coins and scrap in New York at live spot-based prices. On-site testing, transparent offers and same-day payment at our West 47th Street refinery. We also buy diamonds and watches.",
+    },
     about: {
         align: "right",
         image: {

@@ -115,9 +115,33 @@ const REACH = [
     },
 ];
 
+const allSchemas = [
+    LOCAL_BUSINESS,
+    AREA_SERVED
+];
+
+export async function generateMetadata() {
+
+    return {
+        title: TITLE,
+        description: DESCRIPTION,
+        alternates: {
+            canonical: URL,
+        }
+    }
+
+}
+
 export default function Page() {
     return (
         <>
+            {allSchemas.map((schemaObj, index) => (
+                <script
+                    key={index}
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaObj) }}
+                />
+            ))}
             <Section tone="ivory" labelledBy="contact-title">
                 <Container>
                     <div className="max-w-2xl">

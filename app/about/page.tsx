@@ -73,6 +73,12 @@ const PILLARS = [
 export default function Page() {
     return (
         <>
+            {
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(LOCAL_BUSINESS) }}
+                />
+            }
             <section aria-labelledby="hero-title" className="relative isolate overflow-hidden bg-ink">
                 <img
                     src={heroAppraisal.src}
