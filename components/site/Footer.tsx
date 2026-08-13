@@ -50,13 +50,13 @@ const WHAT_WE_BUY = [
 ];
 
 const BRANDS = [
-  { label: "Rolex", href: "/what-we-buy/watch-buyers-nyc/rolex-watch-buyers" },
-  { label: "Patek Philippe", href: "/what-we-buy/watch-buyers-nyc/patek-phillipe-watch-buyers" },
-  { label: "Audemars Piguet", href: "/what-we-buy/watch-buyers-nyc/audemars-piguet-watch-buyers" },
-  { label: "Cartier", href: "/what-we-buy/watch-buyers-nyc/cartier-watch-buyers" },
-  { label: "Richard Mille", href: "/what-we-buy/watch-buyers-nyc/richard-mille-watch-buyers" },
-  { label: "Jaeger-LeCoultre", href: "/what-we-buy/watch-buyers-nyc/jaeger-lecoultre-watch-buyers" },
-  { label: "Panerai", href: "/what-we-buy/watch-buyers-nyc/panerai-watch-buyers" },
+  { label: "Rolex", href: "/sell-used-watch-nyc" },
+  { label: "Patek Philippe", href: "/sell-patek-philippe-nyc" },
+  { label: "Audemars Piguet", href: "/sell-audemars-piguet-nyc" },
+  { label: "Cartier", href: "/sell-cartier-nyc" },
+  { label: "Richard Mille", href: "/sell-richard-mille-nyc" },
+  { label: "Jaeger-LeCoultre", href: "/sell-jaeger-lecoultre-nyc" },
+  { label: "Panerai", href: "/sell-panerai-nyc" },
 ];
 
 const COMPANY = [
