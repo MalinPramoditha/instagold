@@ -1,6 +1,6 @@
 import { cn } from "@/app/lib/utils";
-import black from "../../public/assets/instagold-black.png.asset.json";
-import white from "../../public/assets/instagold-white2.png.asset.json";
+import black from "../../public/assets/logo/logo_black.png";
+import white from "../../public/assets/logo/logo_white.png";
 
 
 export function BrandMark({
@@ -12,9 +12,9 @@ export function BrandMark({
 }) {
   return (
     <img
-      src={tone === "light" ? white.url : black.url}
+      src={tone === "light" ? white.src : black.src}
       alt="InstaGold"
-      className={cn("block h-5 w-auto sm:h-6", className)}
+      className={cn("block h-7 w-auto sm:h-8", className)}
       loading="eager"
       decoding="async"
     />
