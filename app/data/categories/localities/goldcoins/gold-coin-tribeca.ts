@@ -41,7 +41,7 @@ export const goldCoinTribecaData = {
         eyebrow: "New York · Tribeca",
         title: "Gold Coin Buyers Serving Tribeca",
         image: {
-            title: "gold-coins-tribeca-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving Tribeca",
         },
         description: "Gold coin buyers serving Tribeca do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. Tribeca sits just south of the Diamond District, so selling in person means no mailing, no waiting, and a real offer the same day. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

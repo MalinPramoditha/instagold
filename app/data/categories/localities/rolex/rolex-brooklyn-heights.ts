@@ -39,7 +39,7 @@ export const rolexBrooklynHeightsData = {
     ],
     hero: {
         eyebrow: "New York · Brooklyn Heights",
-        title: "Sell Your Rolex in Brooklyn Heights",
+        title: "watches-hero",
         image: {
             title: "rolex-brooklyn-heights-hero",
             alt: "Rolex watches on stone at the InstaGold 47th Street office, serving Brooklyn Heights sellers",
@@ -87,7 +87,7 @@ export const rolexBrooklynHeightsData = {
     about: {
         align: "left",
         tone: "stone",
-        image: { title: "cat-gold", alt: "A Rolex watch inspected with a loupe during an InstaGold evaluation" },
+        image: { title: "watch-feature", alt: "A Rolex watch inspected with a loupe during an InstaGold evaluation" },
         eyebrow: "Fair value",
         title: "Get More for Your Rolex",
         description: `Most people who sell a Rolex are underpaid. Pawn shops and quick-cash buyers offer a fraction of resale value and count on you not knowing what your reference is really worth.\n\nA Rolex is valued on its model and reference, its condition and service history, the originality of its parts, and current collector demand, not on gold weight or a generic estimate.\n\nInstaGold prices your Rolex against current resale and auction data, authenticates it in front of you, and explains exactly how each part of the offer is determined. Licensed, clear, and same day.`,

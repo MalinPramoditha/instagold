@@ -41,7 +41,7 @@ export const goldCoinSohoData = {
         eyebrow: "New York · SoHo",
         title: "Gold Coin Buyers Serving SoHo",
         image: {
-            title: "gold-coins-soho-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving SoHo",
         },
         description: "Gold coin buyers serving SoHo do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. From SoHo, our 47th Street office is a quick trip uptown, so you can sell face to face and get a fair, same-day offer instead of mailing it away. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

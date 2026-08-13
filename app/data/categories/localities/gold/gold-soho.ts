@@ -41,7 +41,7 @@ export const goldSohoData = {
         eyebrow: "New York · SoHo",
         title: "Cash for Gold in SoHo",
         image: {
-            title: "cash-for-gold-soho-hero",
+            title: "hero-gold-refined",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving SoHo sellers",
         },
         description: "Cash for gold in SoHo starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. From SoHo, our 47th Street office is a quick trip uptown, so you can sell face to face and get a fair, same-day offer instead of mailing it away. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",

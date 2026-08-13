@@ -41,7 +41,7 @@ export const goldCoinMurrayHillData = {
         eyebrow: "New York · Murray Hill",
         title: "Gold Coin Buyers Serving Murray Hill",
         image: {
-            title: "gold-coins-murray-hill-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving Murray Hill",
         },
         description: "Gold coin buyers serving Murray Hill do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. Murray Hill is close to our 47th Street office, so selling in person is quick and you get a fair, same-day offer. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

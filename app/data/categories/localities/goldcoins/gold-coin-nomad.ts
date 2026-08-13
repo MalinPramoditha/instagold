@@ -41,7 +41,7 @@ export const goldCoinNomadData = {
         eyebrow: "New York · NoMad",
         title: "Gold Coin Buyers Serving NoMad",
         image: {
-            title: "gold-coins-nomad-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving NoMad",
         },
         description: "Gold coin buyers serving NoMad do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. NoMad is a short walk or ride from our 47th Street office, so you can sell in person, watch the evaluation, and get paid the same day. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

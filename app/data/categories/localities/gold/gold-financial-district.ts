@@ -41,7 +41,7 @@ export const goldFinancialDistrictData = {
         eyebrow: "New York · Financial District",
         title: "Cash for Gold in Financial District",
         image: {
-            title: "cash-for-gold-financial-district-hero",
+            title: "hero-gold-refined",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Financial District sellers",
         },
         description: "Cash for gold in Financial District starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. From the Financial District, our 47th Street office is a straight subway ride uptown, so you can sell on a lunch break and get paid the same day. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",

@@ -41,7 +41,7 @@ export const goldCoinLongIslandCityData = {
         eyebrow: "New York · Long Island City",
         title: "Gold Coin Buyers Serving Long Island City",
         image: {
-            title: "gold-coins-long-island-city-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving Long Island City",
         },
         description: "Gold coin buyers serving Long Island City do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. From Long Island City, our 47th Street office is a quick ride into Midtown, so you can sell in person on your schedule and get paid the same day. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

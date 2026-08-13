@@ -45,18 +45,18 @@ export const NAV = [
                 links: [
                     { label: "Gold", href: "/cash-for-gold-nyc" },
                     { label: "Gold Coins", href: "/gold-coin-buyers-nyc" },
-                    { label: "Gold Bullion & Bars", href: "/cash-for-gold-nyc" },
-                    { label: "Scrap & Dental Gold", href: "/cash-for-gold-nyc" },
-                    { label: "Platinum & Silver", href: "/cash-for-gold-nyc" },
+                    { label: "Gold Bullion & Bars", href: "/sell-gold-bullion-nyc" },
+                    { label: "Scrap & Dental Gold", href: "/sell-dental-gold-nyc" },
+                    { label: "Platinum & Silver", href: "/sell-platinum-silver-nyc" },
                 ],
             },
             {
                 heading: "Watches",
                 links: [
                     { label: "Luxury Watches", href: "/sell-used-watch-nyc" },
-                    { label: "Rolex", href: "/what-we-buy/watch-buyers-nyc/rolex-watch-buyers" },
-                    { label: "Patek Philippe", href: "/what-we-buy/watch-buyers-nyc/patek-phillipe-watch-buyers" },
-                    { label: "Audemars Piguet", href: "/what-we-buy/watch-buyers-nyc/audemars-piguet-watch-buyers" },
+                    { label: "Rolex", href: "/sell-rolex-nyc" },
+                    { label: "Patek Philippe", href: "/sell-patek-philippe-nyc" },
+                    { label: "Audemars Piguet", href: "/sell-audemars-piguet-nyc" },
                     { label: "All Categories", href: "/what-we-buy" },
                 ],
             },
@@ -65,7 +65,7 @@ export const NAV = [
                 links: [
                     { label: "Diamonds", href: "/sell-diamonds-nyc" },
                     { label: "Fine Jewelry", href: "/sell-jewelry-for-cash-nyc" },
-                    { label: "Estate Pieces", href: "/sell-jewelry-for-cash-nyc" },
+                    { label: "Estate Pieces", href: "/sell-estate-jewelry-nyc" },
                 ],
             },
         ],

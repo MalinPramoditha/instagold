@@ -41,7 +41,7 @@ export const goldCoinChelseaData = {
         eyebrow: "New York · Chelsea",
         title: "Gold Coin Buyers Serving Chelsea",
         image: {
-            title: "gold-coins-chelsea-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving Chelsea",
         },
         description: "Gold coin buyers serving Chelsea do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. Chelsea is a short hop from our 47th Street office, so you can sell in person, see the appraisal, and walk out paid the same day. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

@@ -41,7 +41,7 @@ export const goldBrooklynHeightsData = {
         eyebrow: "New York · Brooklyn Heights",
         title: "Cash for Gold in Brooklyn Heights",
         image: {
-            title: "cash-for-gold-brooklyn-heights-hero",
+            title: "hero-gold-refined",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Brooklyn Heights sellers",
         },
         description: "Cash for gold in Brooklyn Heights starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. From Brooklyn Heights, our 47th Street office is a quick ride across the river, so you can sell in person and get a fair, same-day offer. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",

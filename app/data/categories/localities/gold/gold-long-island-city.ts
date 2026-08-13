@@ -41,7 +41,7 @@ export const goldLongIslandCityData = {
         eyebrow: "New York · Long Island City",
         title: "Cash for Gold in Long Island City",
         image: {
-            title: "cash-for-gold-long-island-city-hero",
+            title: "hero-gold-refined",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Long Island City sellers",
         },
         description: "Cash for gold in Long Island City starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. From Long Island City, our 47th Street office is a quick ride into Midtown, so you can sell in person on your schedule and get paid the same day. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",

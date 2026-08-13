@@ -41,7 +41,7 @@ export const goldCoinParkSlopeData = {
         eyebrow: "New York · Park Slope",
         title: "Gold Coin Buyers Serving Park Slope",
         image: {
-            title: "gold-coins-park-slope-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving Park Slope",
         },
         description: "Gold coin buyers serving Park Slope do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. From Park Slope, our 47th Street office is a direct ride into Manhattan, so you can sell in person and get paid the same day. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

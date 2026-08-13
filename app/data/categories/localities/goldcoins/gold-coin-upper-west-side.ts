@@ -41,7 +41,7 @@ export const goldCoinUpperWestSideData = {
         eyebrow: "New York · Upper West Side",
         title: "Gold Coin Buyers Serving Upper West Side",
         image: {
-            title: "gold-coins-upper-west-side-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving Upper West Side",
         },
         description: "Gold coin buyers serving Upper West Side do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. From the Upper West Side, our 47th Street office is a straight ride down, so you can sell in person and get a fair, same-day offer. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

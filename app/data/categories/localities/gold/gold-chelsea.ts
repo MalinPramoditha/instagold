@@ -41,7 +41,7 @@ export const goldChelseaData = {
         eyebrow: "New York · Chelsea",
         title: "Cash for Gold in Chelsea",
         image: {
-            title: "cash-for-gold-chelsea-hero",
+            title: "hero-gold-refined",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Chelsea sellers",
         },
         description: "Cash for gold in Chelsea starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. Chelsea is a short hop from our 47th Street office, so you can sell in person, see the appraisal, and walk out paid the same day. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",

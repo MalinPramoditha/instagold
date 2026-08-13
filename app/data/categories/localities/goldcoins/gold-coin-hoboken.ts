@@ -41,7 +41,7 @@ export const goldCoinHobokenData = {
         eyebrow: "New York · Hoboken",
         title: "Gold Coin Buyers Serving Hoboken",
         image: {
-            title: "gold-coins-hoboken-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving Hoboken",
         },
         description: "Gold coin buyers serving Hoboken do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. From Hoboken, our 47th Street office is a quick PATH ride into Manhattan, so you can sell in person instead of mailing it, and get a fair, same-day offer. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

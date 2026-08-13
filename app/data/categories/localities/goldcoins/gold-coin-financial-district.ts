@@ -41,7 +41,7 @@ export const goldCoinFinancialDistrictData = {
         eyebrow: "New York · Financial District",
         title: "Gold Coin Buyers Serving Financial District",
         image: {
-            title: "gold-coins-financial-district-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving Financial District",
         },
         description: "Gold coin buyers serving Financial District do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. From the Financial District, our 47th Street office is a straight subway ride uptown, so you can sell on a lunch break and get paid the same day. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

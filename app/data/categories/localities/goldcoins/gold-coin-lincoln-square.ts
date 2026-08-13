@@ -41,7 +41,7 @@ export const goldCoinLincolnSquareData = {
         eyebrow: "New York · Lincoln Square",
         title: "Gold Coin Buyers Serving Lincoln Square",
         image: {
-            title: "gold-coins-lincoln-square-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving Lincoln Square",
         },
         description: "Gold coin buyers serving Lincoln Square do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. From Lincoln Square, our 47th Street office is a straight ride down, so you can sell in person and get a fair, same-day offer. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",

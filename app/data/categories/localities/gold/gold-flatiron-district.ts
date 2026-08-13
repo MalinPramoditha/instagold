@@ -41,7 +41,7 @@ export const goldFlatironDistrictData = {
         eyebrow: "New York · Flatiron District",
         title: "Cash for Gold in Flatiron District",
         image: {
-            title: "cash-for-gold-flatiron-district-hero",
+            title: "hero-gold-refined",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Flatiron District sellers",
         },
         description: "Cash for gold in Flatiron District starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. The Flatiron District is a short ride from our 47th Street office, so selling in person is quick, transparent, and paid the same day. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",

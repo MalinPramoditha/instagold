@@ -41,7 +41,7 @@ export const goldMidtownEastData = {
         eyebrow: "New York · Midtown East",
         title: "Cash for Gold in Midtown East",
         image: {
-            title: "cash-for-gold-midtown-east-hero",
+            title: "hero-gold-refined",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Midtown East sellers",
         },
         description: "Cash for gold in Midtown East starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. Midtown East is right beside our 47th Street office, so you can sell in person in minutes and get paid the same day. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",

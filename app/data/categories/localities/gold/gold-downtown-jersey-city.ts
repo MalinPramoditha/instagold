@@ -41,7 +41,7 @@ export const goldDowntownJerseyCityData = {
         eyebrow: "New York · Downtown Jersey City",
         title: "Cash for Gold in Downtown Jersey City",
         image: {
-            title: "cash-for-gold-downtown-jersey-city-hero",
+            title: "hero-gold-refined",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Downtown Jersey City sellers",
         },
         description: "Cash for gold in Downtown Jersey City starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. From Downtown Jersey City, our 47th Street office is a quick PATH ride into Manhattan, so you can sell in person and get a fair, same-day offer. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",

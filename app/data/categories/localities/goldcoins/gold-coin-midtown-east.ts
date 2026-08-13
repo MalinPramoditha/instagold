@@ -41,7 +41,7 @@ export const goldCoinMidtownEastData = {
         eyebrow: "New York · Midtown East",
         title: "Gold Coin Buyers Serving Midtown East",
         image: {
-            title: "gold-coins-midtown-east-hero",
+            title: "gold-coins-hero",
             alt: "Gold coins including Krugerrands and Eagles on stone at the InstaGold 47th Street office, serving Midtown East",
         },
         description: "Gold coin buyers serving Midtown East do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. Midtown East is right beside our 47th Street office, so you can sell in person in minutes and get paid the same day. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell.",
