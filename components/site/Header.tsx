@@ -114,7 +114,7 @@ export function Header() {
 
                     <a
                         href={SITE.offerUrl}
-                        className="inline-flex min-h-11 items-center bg-ink px-5 text-[0.75rem] uppercase tracking-[0.16em] text-[oklch(0.97_0.008_85)] transition-colors hover:bg-champagne-deep"
+                        className="inline-flex min-h-11 items-center rounded-md bg-ink px-5 text-[0.75rem] uppercase tracking-[0.16em] text-[oklch(0.97_0.008_85)] transition-colors hover:bg-champagne-deep"
                     >
                         Get a Free Offer
                     </a>
@@ -227,7 +227,7 @@ export function Header() {
                                 <a
                                     href={SITE.offerUrl}
                                     onClick={() => setOpen(false)}
-                                    className="flex min-h-12 items-center justify-center bg-ink text-[0.78rem] uppercase tracking-[0.16em] text-[oklch(0.97_0.008_85)]"
+                                    className="flex min-h-12 items-center justify-center bg-ink text-[0.78rem] rounded-md uppercase tracking-[0.16em] text-[oklch(0.97_0.008_85)]"
                                 >
                                     Get a Free Offer
                                 </a>

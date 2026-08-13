@@ -14,7 +14,7 @@ export function BrandMark({
     <img
       src={tone === "light" ? white.src : black.src}
       alt="InstaGold"
-      className={cn("block h-7 w-auto sm:h-8", className)}
+      className={cn("block h-8 w-auto sm:h-10", className)}
       loading="eager"
       decoding="async"
     />
