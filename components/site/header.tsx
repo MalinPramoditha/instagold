@@ -1,10 +1,11 @@
 "use client"
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { Menu, Phone, X, ChevronDown } from "lucide-react";
-import { Container } from "@/components/site/ui";
-import { cn } from "@/app/lib/utils";
-import { BrandMark } from "@/components/site/Logo";
 import { NAV, SITE } from "@/app/data/site";
+import { Container } from "./ui";
+import { cn } from "@/lib/utils";
+import { BrandMark } from "./Logo";
 
 function Logo({ className }: { className?: string }) {
     return (
@@ -38,8 +39,14 @@ export function UtilityBar() {
 
 export function Header() {
     const [open, setOpen] = useState(false);
+    const [subOpen, setSubOpen] = useState(false);
+    const [mounted, setMounted] = useState(false);
     const [megaOpen, setMegaOpen] = useState(false);
     const mega = NAV[0]!;
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
     useEffect(() => {
         document.body.style.overflow = open ? "hidden" : "";
@@ -47,6 +54,7 @@ export function Header() {
             document.body.style.overflow = "";
         };
     }, [open]);
+
 
     return (
         <header className="sticky top-0 z-50 border-b border-hairline bg-background/95 backdrop-blur">
@@ -72,11 +80,11 @@ export function Header() {
                         {megaOpen && mega.columns ? (
                             <div className="absolute left-1/2 top-full w-[46rem] -translate-x-1/2 border border-hairline bg-card p-8 shadow-[0_18px_40px_-30px_oklch(0.2_0.01_60/0.5)]">
                                 <div className="grid grid-cols-3 gap-8">
-                                    {mega.columns.map((col) => (
+                                    {mega.columns.map((col: any) => (
                                         <div key={col.heading}>
                                             <p className="eyebrow mb-4">{col.heading}</p>
                                             <ul className="space-y-2.5">
-                                                {col.links.map((l) => (
+                                                {col.links.map((l: any) => (
                                                     <li key={l.label + l.href}>
                                                         <a
                                                             href={l.href}
@@ -94,7 +102,7 @@ export function Header() {
                         ) : null}
                     </div>
 
-                    {NAV.slice(1).map((item) => (
+                    {NAV.slice(1).map((item: any) => (
                         <a
                             key={item.href + item.label}
                             href={item.href}
@@ -106,7 +114,7 @@ export function Header() {
 
                     <a
                         href={SITE.offerUrl}
-                        className="inline-flex min-h-11 rounded-md items-center bg-ink px-5 text-[0.75rem] uppercase tracking-[0.16em] text-[oklch(0.97_0.008_85)] transition-colors hover:bg-champagne-deep"
+                        className="inline-flex min-h-11 items-center bg-ink px-5 text-[0.75rem] uppercase tracking-[0.16em] text-[oklch(0.97_0.008_85)] transition-colors hover:bg-champagne-deep"
                     >
                         Get a Free Offer
                     </a>
@@ -138,60 +146,103 @@ export function Header() {
                 </div>
             </Container>
 
-            {open ? (
-                <div className="fixed inset-0 z-50 flex flex-col bg-background lg:hidden">
-                    <div className="flex items-center justify-between border-b border-hairline px-5 py-4">
-                        <Logo />
-                        <button
-                            type="button"
-                            onClick={() => setOpen(false)}
-                            aria-label="Close menu"
-                            className="grid size-11 place-items-center"
-                        >
-                            <X aria-hidden="true" className="size-6" />
-                        </button>
-                    </div>
-                    <nav aria-label="Mobile" className="flex-1 overflow-y-auto px-5 py-6">
-                        <ul className="divide-y divide-hairline">
-                            {NAV.map((item) => (
-                                <li key={item.label}>
-                                    <a
-                                        href={item.href}
-                                        className="flex min-h-14 items-center font-display text-2xl text-foreground"
-                                    >
-                                        {item.label}
-                                    </a>
-                                    {item.columns ? (
-                                        <ul className="-mt-1 mb-4 grid grid-cols-2 gap-x-4 gap-y-2">
-                                            {item.columns.flatMap((c) => c.links).map((l) => (
-                                                <li key={l.label + l.href}>
-                                                    <a href={l.href} className="block py-1.5 text-sm text-muted-foreground">
-                                                        {l.label}
-                                                    </a>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    ) : null}
-                                </li>
-                            ))}
-                        </ul>
-                        <div className="mt-8 space-y-3">
-                            <a
-                                href={SITE.offerUrl}
-                                className="flex min-h-12 items-center justify-center bg-ink text-[0.78rem] uppercase tracking-[0.16em] text-[oklch(0.97_0.008_85)]"
+            {open && mounted
+                ? createPortal(
+                    <div className="fixed inset-0 z-[100] flex flex-col bg-background lg:hidden">
+                        <div className="flex items-center justify-between border-b border-hairline px-5 py-4">
+                            <Logo />
+                            <button
+                                type="button"
+                                onClick={() => setOpen(false)}
+                                aria-label="Close menu"
+                                className="grid size-11 place-items-center"
                             >
-                                Get a Free Offer
-                            </a>
-                            <a
-                                href={SITE.phoneHref}
-                                className="flex min-h-12 items-center justify-center border border-ink/30 text-[0.78rem] uppercase tracking-[0.16em]"
-                            >
-                                Call {SITE.phone}
-                            </a>
+                                <X aria-hidden="true" className="size-6" />
+                            </button>
                         </div>
-                    </nav>
-                </div>
-            ) : null}
+                        <nav aria-label="Mobile" className="flex-1 overflow-y-auto px-5 py-6">
+                            <ul className="divide-y divide-hairline">
+                                {NAV.map((item: any) => (
+                                    <li key={item.label}>
+                                        {item.columns ? (
+                                            <>
+                                                <div className="flex items-center justify-between">
+                                                    <a
+                                                        href={item.href}
+                                                        onClick={() => setOpen(false)}
+                                                        className="flex min-h-14 flex-1 items-center font-display text-2xl text-foreground"
+                                                    >
+                                                        {item.label}
+                                                    </a>
+                                                    <button
+                                                        type="button"
+                                                        aria-expanded={subOpen}
+                                                        aria-label={subOpen ? "Collapse What We Buy" : "Expand What We Buy"}
+                                                        onClick={() => setSubOpen((v) => !v)}
+                                                        className="grid size-11 place-items-center text-foreground"
+                                                    >
+                                                        <ChevronDown
+                                                            aria-hidden="true"
+                                                            className={cn(
+                                                                "size-5 transition-transform duration-200 motion-reduce:transition-none",
+                                                                subOpen && "rotate-180",
+                                                            )}
+                                                        />
+                                                    </button>
+                                                </div>
+                                                <div className={cn("pb-4", subOpen ? "block" : "hidden")}>
+                                                    {item.columns.map((col: any) => (
+                                                        <div key={col.heading} className="mb-4">
+                                                            <p className="eyebrow mb-2">{col.heading}</p>
+                                                            <ul className="space-y-1.5">
+                                                                {col.links.map((l: any) => (
+                                                                    <li key={l.label + l.href}>
+                                                                        <a
+                                                                            href={l.href}
+                                                                            onClick={() => setOpen(false)}
+                                                                            className="block py-1.5 text-sm text-muted-foreground"
+                                                                        >
+                                                                            {l.label}
+                                                                        </a>
+                                                                    </li>
+                                                                ))}
+                                                            </ul>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </>
+                                        ) : (
+                                            <a
+                                                href={item.href}
+                                                onClick={() => setOpen(false)}
+                                                className="flex min-h-14 items-center font-display text-2xl text-foreground"
+                                            >
+                                                {item.label}
+                                            </a>
+                                        )}
+                                    </li>
+                                ))}
+                            </ul>
+                            <div className="mt-8 space-y-3">
+                                <a
+                                    href={SITE.offerUrl}
+                                    onClick={() => setOpen(false)}
+                                    className="flex min-h-12 items-center justify-center bg-ink text-[0.78rem] uppercase tracking-[0.16em] text-[oklch(0.97_0.008_85)]"
+                                >
+                                    Get a Free Offer
+                                </a>
+                                <a
+                                    href={SITE.phoneHref}
+                                    className="flex min-h-12 items-center justify-center border border-ink/30 text-[0.78rem] uppercase tracking-[0.16em]"
+                                >
+                                    Call {SITE.phone}
+                                </a>
+                            </div>
+                        </nav>
+                    </div>,
+                    document.body,
+                )
+                : null}
         </header>
     );
 }
