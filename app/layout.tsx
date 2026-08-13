@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Commissioner, Jost } from "next/font/google";
 import "./globals.css";
-import { Header } from "../components/site/Header";
+import { Header } from "@/components/site/Header";
 import { Footer } from "../components/site/Footer";
 
 const commissioner = Commissioner({
