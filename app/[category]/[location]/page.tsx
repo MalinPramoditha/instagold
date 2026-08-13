@@ -1,5 +1,4 @@
-
-import { categoryData } from "../data/categories";
+import { locationData } from "@/app/data/categories";
 import { HeroSection } from "@/components/site/sections/HeroSection";
 import { RateSection } from "@/components/site/sections/RateSection";
 import { GetOfferSection } from "@/components/site/GetOfferSection";
@@ -13,67 +12,69 @@ import { FAQ } from "@/components/site/FAQ";
 import { CTASection } from "@/components/site/sections/CTASection";
 
 type PageParams = {
-    params: Promise<{ category: string }>
+    params: Promise<{ category: string; location: string }>
 }
 
 export async function generateStaticParams() {
-    return Object.keys(categoryData).map((category) => ({
-        category: category
-    }))
+    return Object.keys(locationData)
+        .filter((key) => key.includes('/'))
+        .map((key) => {
+            const [category, location] = key.split('/');
+            return {
+                category: String(category),
+                location: String(location)
+            };
+        });
 }
 
 export async function generateMetadata({ params }: PageParams) {
+    const resolvedParams = await params;
+    const category = resolvedParams?.category;
+    const location = resolvedParams?.location;
 
-    const { category } = await params;
-    const data = categoryData[category as keyof typeof categoryData];
+    if (!category || !location) return { title: "Page Not Found" };
 
-    if (!data || !data.meta) {
-        return { title: "Page Not Found" }
-    }
+    const lookupKey = `${category}/${location}`;
+    const data = locationData[lookupKey as keyof typeof locationData];
+
+    if (!data || !data.meta) return { title: "Page Not Found" };
 
     return {
         title: data.meta.title,
         description: data.meta.description,
-        alternates: {
-            canonical: `https://lux-offer-pro.lovable.app/${category}`,
-        }
-    }
-
-
-
+        alternates: { canonical: `https://lux-offer-pro.lovable.app/${lookupKey}` }
+    };
 }
 
-export default async function Page({ params }: PageParams) {
-    const { category } = await params;
-    const data = categoryData[category as keyof typeof categoryData]
+export default async function LocationPage({ params }: PageParams) {
+    const resolvedParams = await params;
+    const category = resolvedParams?.category;
+    const location = resolvedParams?.location;
 
-    if (!data) { return }
+    if (!category || !location) return null;
+
+    const lookupKey = `${category}/${location}`;
+    const data = locationData[lookupKey as keyof typeof locationData];
+
+    if (!data) return null;
 
     const faqSchema = data.faqs ? {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        mainEntity: data.faqs.map((f) => ({
+        mainEntity: data.faqs.map((f: any) => ({
             "@type": "Question",
             name: f.q,
             acceptedAnswer: { "@type": "Answer", text: f.a },
         })),
     } : null;
 
-    const allSchemas = [
-        ...(data.schema || []),
-        ...(faqSchema ? [faqSchema] : [])
-    ];
+    const allSchemas = [...(data.schema || []), ...(faqSchema ? [faqSchema] : [])];
 
     return (
         <>
             {allSchemas.map((schemaObj, index) => (
-                <script
-                    key={index}
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaObj) }}
-                />
+                <script key={index} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaObj) }} />
             ))}
-
             {data.hero && <HeroSection data={data.hero} />}
             <RateSection />
             <GetOfferSection />
@@ -87,6 +88,5 @@ export default async function Page({ params }: PageParams) {
             {data.faqs && <FAQ data={data.faqs} />}
             {data.cta && <CTASection data={data.cta} />}
         </>
-    )
-
+    );
 }

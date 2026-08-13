@@ -6,8 +6,10 @@ import { goldCoinsData } from "./goldCoins";
 import { goldBullionData } from "./goldBullion";
 import { dentalGoldData } from "./dentalGold";
 import { platinumSilverData } from "./platinumSilver";
+
 //jewelry 
 import { estateJewelryData } from "./estateJewelry";
+
 //watches
 import { rolexData } from "./rolex";
 import { cartierData } from "./cartier";
@@ -16,7 +18,6 @@ import { patekPhilippeData } from "./patek-philippe";
 import { audemarsPiguetData } from "./piguet";
 import { richardMilleData } from "./richard-mille";
 import { jaegerLecoultreData } from "./jaeger-lecoultre";
-
 
 //rolex 
 import { rolexBrooklynHeightsData } from "@/app/data/categories/localities/rolex/rolex-brooklyn-heights";
@@ -149,6 +150,8 @@ export const categoryData = {
     'sell-audemars-piguet-nyc': audemarsPiguetData,
     'sell-richard-mille-nyc': richardMilleData,
     'sell-jaeger-lecoultre-nyc': jaegerLecoultreData,
+}
+export const locationData = {
 
     //rolex localities 
     'sell-rolex-nyc/brooklyn-heights': rolexBrooklynHeightsData,
