@@ -8,17 +8,12 @@ import { TrustStrip } from "@/components/site/TrustStrip";
 import { WhatWeBuy } from "@/components/site/WhatWeBuy";
 import { AboutSection } from "@/components/site/sections/AboutSection";
 import { CTASection } from "@/components/site/sections/CTASection";
-import dynamic from "next/dynamic";
+import { Testimonials } from "@/components/site/Testimonials";
+import { RateSection } from "@/components/site/sections/RateSection";
 
 import { homeData } from "./data/homeData";
 import { Metadata } from "next";
-// import { RateSection } from "@/components/site/sections/RateSection";
 
-// const Testimonials = dynamic(() => import('@/components/site/Testimonials'),
-//   {
-//     loading: () => <div className="h-64 w-full animate-pulse bg-gray-100 rounded-lg" />
-//   }
-// );
 const metaData: Metadata = {
   title: homeData.meta.title,
   description: homeData.meta.description
@@ -27,14 +22,14 @@ export default async function Page() {
   return (
     <>
       <Hero />
-      {/* <RateSection /> */}
+      <RateSection />
       <GetOfferSection />
       <TrustStrip />
       <WhatWeBuy />
       <Process data={homeData.process} />
       <AboutSection data={homeData.about} />
       <SellingGold />
-      {/* <Testimonials data={homeData.testimonials} /> */}
+      <Testimonials data={homeData.testimonials} />
       <FAQ data={homeData.faqs} />
       <CTASection data={homeData.cta} />
     </>

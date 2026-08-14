@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="563px" height="161px" viewBox="0 0 563 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-231.000000, -367.000000)">
+            <g id="Group-3" transform="translate(233.000000, 367.000000)">
+                <g id="Group-2" transform="translate(0.000000, 10.000000)">
+                    <text id="INSTAGOLD" font-family="AgathoBold, Agatho" font-size="100" font-weight="bold" letter-spacing="3.667818">
+                        <tspan x="0" y="95" fill="#FFFFFF">INSTA</tspan>
+                        <tspan x="290.23909" y="95" fill="#D4AF37">GOLD</tspan>
+                    </text>
+                    <text id="BUYERS" font-family="Commissioner-Thin_Light, Commissioner" font-size="40" font-weight="300" letter-spacing="15" fill="#FFFFFF">
+                        <tspan x="157" y="150">BUYERS</tspan>
+                    </text>
+                </g>
+                <path d="M0,143.5 L144.036626,143.5" id="Line" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"></path>
+                <path d="M0,10 L260.07489,10" id="Line-Copy-2" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"></path>
+                <path d="M298.537445,10 L558.612335,10" id="Line-Copy-3" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"></path>
+                <path d="M415,143.5 L559.036626,143.5" id="Line-Copy" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"></path>
+                <rect id="Rectangle" fill="#D4AF37" transform="translate(280.000000, 10.000000) rotate(45.000000) translate(-280.000000, -10.000000) " x="273" y="3" width="14" height="14"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

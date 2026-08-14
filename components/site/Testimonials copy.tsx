@@ -32,11 +32,39 @@ export function Testimonials({
 
                 </div>
                 <div className="mt-8">
-                    <div className="grid gap-4 md:grid-cols-3">
-                        {data.slice(0, 3).map((t: any) => (
-                            <ReviewCard key={t.id} data={t} />
+                    <Swiper
+                        slidesPerView={3}
+                        spaceBetween={30}
+                        freeMode={true}
+                        loop={true}
+                        breakpoints={{
+                            320: {
+                                slidesPerView: 1,
+                                spaceBetween: 10
+                            },
+                            480: {
+                                slidesPerView: 2,
+                                spaceBetween: 20
+                            },
+                            640: {
+                                slidesPerView: 3,
+                                spaceBetween: 30
+                            }
+                        }}
+
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                            pauseOnMouseEnter: true,
+                        }}
+                        modules={[Autoplay, FreeMode]}
+                        className="mySwiper">
+
+
+                        {data.map((t: any) => (
+                            <SwiperSlide><ReviewCard data={t} /></SwiperSlide>
                         ))}
-                    </div>
+                    </Swiper>
                 </div>
             </Container>
         </Section>

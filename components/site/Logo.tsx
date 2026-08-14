@@ -1,6 +1,6 @@
 import { cn } from "@/app/lib/utils";
-import black from "../../public/assets/logo/logo_black.png";
-import white from "../../public/assets/logo/logo_white.png";
+import black from "../../public/assets/logo/logo_black.svg";
+import white from "../../public/assets/logo/logo_white.svg";
 
 
 export function BrandMark({
