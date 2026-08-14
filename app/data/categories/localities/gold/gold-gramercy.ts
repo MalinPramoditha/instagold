@@ -39,7 +39,7 @@ export const goldGramercyData = {
     ],
     hero: {
         eyebrow: "New York · Gramercy",
-        title: "gold-hero",
+        title: "Cash for Gold in Gramercy",
         image: {
             title: "gold-hero",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Gramercy sellers",

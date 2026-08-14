@@ -87,7 +87,7 @@ export const goldCoinDumboData = {
     about: {
         align: "left",
         tone: "stone",
-        image: { title: "cat-gold", alt: "Gold coins examined during an InstaGold evaluation" },
+        image: { title: "gold-examined", alt: "Gold coins examined during an InstaGold evaluation" },
         eyebrow: "Fair value",
         title: "Get More for Your Gold Coins",
         description: `Most coin sellers are underpaid. Pawn shops and mail-in buyers pay melt value only and ignore what a coin is really worth.\n\nFor rare or collectible coins, that can mean losing hundreds or thousands of dollars in numismatic value.\n\nInstaGold values your coins two ways, by live metal price and by collectible worth, and pays you the higher of the two. We show you exactly how the offer is calculated. Licensed, clear, and same day.`,
