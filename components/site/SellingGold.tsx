@@ -18,7 +18,7 @@ export function SellingGold() {
                     Gold is priced on purity and weight against the live spot market. We test the karat and weigh
                     every piece in front of you, then show how the offer was calculated. Read our{" "}
                     <a
-                        href="/what-we-buy/gold-buyers-nyc"
+                        href="/blog/gold-buyers-nyc"
                         className="font-medium text-link underline underline-offset-4"
                     >
                         gold selling guide

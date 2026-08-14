@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container, Eyebrow, Section } from "./ui";
 import { ThingsWeBuy } from "@/app/data/ThingsWeBuy";
 export function WhatWeBuy() {
@@ -12,11 +13,11 @@ export function WhatWeBuy() {
                 <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
                     {ThingsWeBuy.map((c) => (
                         <li key={c.title} className="panel-soft flex flex-col overflow-hidden rounded-xl border border-hairline bg-card">
-                            <img
+                            <Image
                                 src={c.image.src}
                                 alt={c.alt}
-                                width={1200}
-                                height={900}
+                                width={370}
+                                height={278}
                                 loading="lazy"
                                 className="aspect-4/3 w-full object-cover"
                             />

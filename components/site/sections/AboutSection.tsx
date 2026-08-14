@@ -2,6 +2,7 @@ import { SITE } from "@/app/data/site";
 import { cn } from "@/lib/utils";
 import { Check, CircleCheck } from "lucide-react";
 import { Container, Eyebrow, Section } from "../ui";
+import Image from "next/image";
 
 
 export function AboutSection({ data }: { data: any }) {
@@ -9,12 +10,13 @@ export function AboutSection({ data }: { data: any }) {
         <Section tone={data.tone} labelledBy="why-title">
             <Container>
                 <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-                    <img
+                    <Image
                         src={`/assets/examined/${data.image.title}.png`}
                         alt={data.image.alt}
-                        width={1400}
-                        height={1050}
-                        loading="lazy"
+                        width={560}
+                        height={420}
+                        loading="eager"
+                        sizes="(max-width: 768px) 100vw, 560px"
                         className={cn("aspect-4/3 w-full rounded-lg object-cover", data.align === "left" ? "order-1" : "order-2")}
                     />
                     <div className={data.align === "left" ? "order-2" : "order-1"}>

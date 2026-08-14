@@ -1,21 +1,24 @@
 import { Container, Eyebrow, Cta } from "./ui";
 import { SITE } from "@/app/data/site";
-import heroGold from "@/public/assets/hero/gold-hero.jpg";
+import heroGold from "@/public/assets/hero/gold-hero.webp";
 import { Check } from "lucide-react";
+import Image from "next/image";
 
 
 export function Hero() {
     return (
         <section aria-labelledby="hero-title" className="relative isolate overflow-hidden bg-ink">
-            <img
+            <Image
                 src={heroGold.src}
                 alt="Polished gold bars and fine gold chains on warm travertine stone"
                 width={1600}
                 height={1072}
+                sizes="100vw"
+                priority={true}
                 fetchPriority="high"
-                decoding="async"
                 className="absolute inset-0 -z-10 size-full object-cover"
             />
+
             <div
                 aria-hidden="true"
                 className="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/55 to-black/20"

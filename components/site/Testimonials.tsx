@@ -8,7 +8,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { ReviewCard } from "./blocks/ReviewCard";
 
-export function Testimonials({
+
+export default function Testimonials({
     data,
     tone = "quote",
     limit = 3,

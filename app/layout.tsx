@@ -1,18 +1,7 @@
 import type { Metadata } from "next";
-import { Commissioner, Jost } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/site/Header";
 import { Footer } from "../components/site/Footer";
-
-const commissioner = Commissioner({
-  variable: "--font-commissioner",
-  subsets: ["latin"],
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,9 +14,20 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={` h-full antialiased`}
     >
-      <Header />
-      <body className="min-h-full flex flex-col">{children}</body>
-      <Footer />
+      <head>
+        <link
+          rel="preload"
+          href="/fonts/Commissioner-VariableFont_slnt,wght.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+      </head>
+      <body className="min-h-full flex flex-col">
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
