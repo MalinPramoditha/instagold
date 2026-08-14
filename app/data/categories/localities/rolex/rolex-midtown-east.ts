@@ -96,7 +96,7 @@ export const rolexMidtownEastData = {
         link: { label: "", url: "", action: "" },
     },
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",

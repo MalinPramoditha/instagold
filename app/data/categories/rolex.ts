@@ -135,7 +135,7 @@ export const rolexData = {
         align: "left",
         tone: "stone",
         image: {
-            title: "cat-gold",
+            title: "rolex-examined",
             alt: "A Rolex watch inspected with a loupe during an InstaGold evaluation"
         },
         eyebrow: "Fair value",
@@ -151,10 +151,10 @@ export const rolexData = {
     },
 
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: {
-            title: "office-appraisal",
+            title: "rolex-end",
             alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office"
         },
         eyebrow: "Location",

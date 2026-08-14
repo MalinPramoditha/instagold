@@ -122,7 +122,7 @@ export const diamondsData = {
         align: "left",
         tone: "stone",
         image: {
-            title: "cat-diamonds",
+            title: "diamonds-examined",
             alt: "Specialist appraising a piece in the InstaGold 47th Street office"
         },
         eyebrow: "Fair value",
@@ -138,7 +138,7 @@ export const diamondsData = {
     },
 
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: {
             title: "office-appraisal",

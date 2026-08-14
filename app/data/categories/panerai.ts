@@ -89,7 +89,7 @@ export const paneraiData = {
     about: {
         align: "left",
         tone: "stone",
-        image: { title: "cat-gold", alt: "A Panerai watch inspected with a loupe during an InstaGold evaluation" },
+        image: { title: "panerai-end", alt: "A Panerai watch inspected with a loupe during an InstaGold evaluation" },
         eyebrow: "Fair value",
         title: "Get More for Your Panerai",
         description: `Most people who sell a Panerai are underpaid. Pawn shops and quick-cash buyers offer a fraction of resale value and count on you not knowing what your reference is really worth.\n\nA Panerai is valued on its model and reference, its condition and service history, the originality of its parts, and current collector demand, not on gold weight or a generic estimate.\n\nInstaGold prices your Panerai against current resale and auction data, authenticates it in front of you, and explains exactly how each part of the offer is determined. Licensed, clear, and same day.`,
@@ -98,7 +98,7 @@ export const paneraiData = {
         link: { label: "", url: "", action: "" },
     },
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Panerai at the 47th Street Diamond District office" },
         eyebrow: "Location",

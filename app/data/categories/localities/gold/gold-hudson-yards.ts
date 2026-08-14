@@ -41,7 +41,7 @@ export const goldHudsonYardsData = {
         eyebrow: "New York · Hudson Yards",
         title: "Cash for Gold in Hudson Yards",
         image: {
-            title: "hero-gold-refined",
+            title: "gold-hero",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Hudson Yards sellers",
         },
         description: "Cash for gold in Hudson Yards starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. Hudson Yards is a short ride from our 47th Street office, so you can sell in person and get a fair, same-day offer. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",
@@ -96,7 +96,7 @@ export const goldHudsonYardsData = {
         link: { label: "", url: "", action: "" },
     },
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: { title: "office-appraisal", alt: "InstaGold specialist testing gold at the 47th Street Diamond District office" },
         eyebrow: "Location",

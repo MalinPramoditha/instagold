@@ -6,6 +6,7 @@ import { NAV, SITE } from "@/app/data/site";
 import { Container } from "./ui";
 import { cn } from "@/lib/utils";
 import { BrandMark } from "./Logo";
+import { usePathname } from "next/navigation";
 
 function Logo({ className }: { className?: string }) {
     return (
@@ -54,6 +55,9 @@ export function Header() {
             document.body.style.overflow = "";
         };
     }, [open]);
+
+    const arctiveNav = usePathname();
+    console.log('active', arctiveNav)
 
 
     return (
@@ -106,7 +110,7 @@ export function Header() {
                         <a
                             key={item.href + item.label}
                             href={item.href}
-                            className="flex min-h-11 items-center text-[0.78rem] uppercase tracking-[0.14em] text-foreground hover:text-champagne-deep"
+                            className={cn("flex min-h-11 items-center text-[0.78rem] uppercase tracking-[0.14em]  hover:text-champagne-deep", arctiveNav === item.href ? "text-brand font-semibold" : "text-foreground")}
                         >
                             {item.label}
                         </a>

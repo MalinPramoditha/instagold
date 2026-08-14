@@ -135,7 +135,7 @@ export const goldCoinsData = {
         align: "left",
         tone: "stone",
         image: {
-            title: "cat-gold",
+            title: "gold-examined",
             alt: "Gold coins and chains weighed on a jeweler's scale during an InstaGold evaluation"
         },
         eyebrow: "Fair value",
@@ -151,10 +151,10 @@ export const goldCoinsData = {
     },
 
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: {
-            title: "office-appraisal",
+            title: "gold-coin-end",
             alt: "InstaGold specialist testing a gold coin at the 47th Street Diamond District office"
         },
         eyebrow: "Location",

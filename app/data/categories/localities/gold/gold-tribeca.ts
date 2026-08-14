@@ -41,7 +41,7 @@ export const goldTribecaData = {
         eyebrow: "New York · Tribeca",
         title: "Cash for Gold in Tribeca",
         image: {
-            title: "hero-gold-refined",
+            title: "gold-hero",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Tribeca sellers",
         },
         description: "Cash for gold in Tribeca starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. Tribeca sits just south of the Diamond District, so selling in person means no mailing, no waiting, and a real offer the same day. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",
@@ -96,7 +96,7 @@ export const goldTribecaData = {
         link: { label: "", url: "", action: "" },
     },
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: { title: "office-appraisal", alt: "InstaGold specialist testing gold at the 47th Street Diamond District office" },
         eyebrow: "Location",

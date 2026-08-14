@@ -151,7 +151,7 @@ export const estateJewelryData = {
     },
 
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: {
             title: "office-appraisal",

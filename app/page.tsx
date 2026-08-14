@@ -2,7 +2,6 @@
 import { FAQ } from "@/components/site/FAQ";
 import { GetOfferSection } from "@/components/site/GetOfferSection";
 import { Hero } from "@/components/site/Hero";
-import { MediaStrip } from "@/components/site/MediaStrip";
 import { Process } from "@/components/site/Process";
 import { SellingGold } from "@/components/site/SellingGold";
 import { TrustStrip } from "@/components/site/TrustStrip";
@@ -24,7 +23,6 @@ export default async function Page() {
       <Hero />
       <GetOfferSection />
       <TrustStrip />
-      <MediaStrip />
       <WhatWeBuy />
       <Process data={homeData.process} />
       <AboutSection data={homeData.about} />

@@ -121,7 +121,7 @@ export const jewelryData = {
         align: "left",
         tone: "stone",
         image: {
-            title: "cat-jewelry",
+            title: "jewelry-examined",
             alt: "Specialist testing a gold and diamond ring during an InstaGold jewelry valuation"
         },
         eyebrow: "Fair value",
@@ -137,7 +137,7 @@ export const jewelryData = {
     },
 
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: {
             title: "office-appraisal",

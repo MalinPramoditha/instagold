@@ -89,7 +89,7 @@ export const cartierData = {
     about: {
         align: "left",
         tone: "stone",
-        image: { title: "cat-gold", alt: "A Cartier watch inspected with a loupe during an InstaGold evaluation" },
+        image: { title: "cartier-examined", alt: "A Cartier watch inspected with a loupe during an InstaGold evaluation" },
         eyebrow: "Fair value",
         title: "Get More for Your Cartier",
         description: `Most people who sell a Cartier are underpaid. Pawn shops and quick-cash buyers offer a fraction of resale value and count on you not knowing what your reference is really worth.\n\nA Cartier is valued on its model and reference, its condition and service history, the originality of its parts, and current collector demand, not on gold weight or a generic estimate.\n\nInstaGold prices your Cartier against current resale and auction data, authenticates it in front of you, and explains exactly how each part of the offer is determined. Licensed, clear, and same day.`,
@@ -98,9 +98,9 @@ export const cartierData = {
         link: { label: "", url: "", action: "" },
     },
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Cartier at the 47th Street Diamond District office" },
+        image: { title: "cartier-end", alt: "InstaGold specialist authenticating a Cartier at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Cartier in NYC",
         description: "InstaGold is located at 31 W 47th Street in the heart of the Diamond District, the most trusted place to sell a Cartier in New York. We buy from sellers across Manhattan and the greater NYC area. Walk in during business hours or get an offer online first.",

@@ -96,7 +96,7 @@ export const goldCoinBrooklynHeightsData = {
         link: { label: "", url: "", action: "" },
     },
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: { title: "office-appraisal", alt: "InstaGold specialist valuing gold coins at the 47th Street Diamond District office" },
         eyebrow: "Location",

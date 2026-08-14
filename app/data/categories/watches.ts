@@ -121,7 +121,7 @@ export const watchesData = {
         align: "left",
         tone: "stone",
         image: {
-            title: "watch-feature",
+            title: "watch-examined",
             alt: "Specialist inspecting a pre-owned luxury watch with a loupe during an InstaGold valuation"
         },
         eyebrow: "Fair value",
@@ -140,7 +140,7 @@ export const watchesData = {
         align: "right",
         tone: "white",
         image: {
-            title: "office-appraisal",
+            title: "watches-end",
             alt: "InstaGold specialist valuing a watch at the 47th Street Diamond District office"
         },
         eyebrow: "Location",

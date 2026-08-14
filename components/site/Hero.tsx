@@ -1,6 +1,6 @@
 import { Container, Eyebrow, Cta } from "./ui";
 import { SITE } from "@/app/data/site";
-import heroGold from "@/public/assets/hero-gold-refined.jpg";
+import heroGold from "@/public/assets/hero/gold-hero.jpg";
 import { Check } from "lucide-react";
 
 

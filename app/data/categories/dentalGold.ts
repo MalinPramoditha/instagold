@@ -135,7 +135,7 @@ export const dentalGoldData = {
         align: "left",
         tone: "stone",
         image: {
-            title: "cat-gold",
+            title: "dental-gold-examined",
             alt: "Dental gold and scrap gold weighed on a jeweler's scale during an InstaGold evaluation"
         },
         eyebrow: "Fair value",
@@ -151,10 +151,10 @@ export const dentalGoldData = {
     },
 
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: {
-            title: "office-appraisal",
+            title: "dental-gold-end",
             alt: "InstaGold specialist testing dental gold at the 47th Street Diamond District office"
         },
         eyebrow: "Location",

@@ -1,15 +1,13 @@
-import { Container, Eyebrow, Cta } from "../ui";
 import { SITE } from "@/app/data/site";
-import heroGold from "@/public/assets/hero-gold-refined.jpg";
-import { Check } from "lucide-react";
 import { CTA } from "../blocks";
+import { Container, Eyebrow } from "../ui";
 
 
 export function HeroSection({ data }: { data: any }) {
     return (
         <section aria-labelledby="hero-title" className="relative isolate overflow-hidden bg-ink">
             <img
-                src={`/assets/${data.image.title}.jpg`}
+                src={`/assets/hero/${data.image.title}.jpg`}
                 alt={data.image.alt}
                 width={1600}
                 height={1072}

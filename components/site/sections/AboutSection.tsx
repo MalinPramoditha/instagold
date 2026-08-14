@@ -1,6 +1,6 @@
 import { SITE } from "@/app/data/site";
 import { cn } from "@/lib/utils";
-import { Check } from "lucide-react";
+import { Check, CircleCheck } from "lucide-react";
 import { Container, Eyebrow, Section } from "../ui";
 
 
@@ -10,7 +10,7 @@ export function AboutSection({ data }: { data: any }) {
             <Container>
                 <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
                     <img
-                        src={`/assets/${data.image.title}.jpg`}
+                        src={`/assets/examined/${data.image.title}.png`}
                         alt={data.image.alt}
                         width={1400}
                         height={1050}
@@ -25,10 +25,10 @@ export function AboutSection({ data }: { data: any }) {
                         <p className="mt-4 text-base leading-relaxed text-muted-foreground whitespace-pre-line">
                             {data.description}
                         </p>
-                        <ul className="mt-5 space-y-3">
+                        <ul className="mt-5 space-y-4">
                             {data.list.map((item: string, index: number) => (
                                 <li key={index} className="flex items-start gap-3 text-base leading-relaxed">
-                                    <Check aria-hidden="true" className="mt-1 size-4 shrink-0 text-link" />
+                                    <CircleCheck aria-hidden="true" className="mt-1 size-5 shrink-0 text-brand" />
                                     {item}
                                 </li>
                             ))}

@@ -3,8 +3,8 @@ import { Coins, Gem, MapPin, Phone, Scale, ShieldCheck, Sparkles, Watch } from "
 import { Container, Cta, Eyebrow, Section } from "@/components/site/ui";
 import { OfferForm } from "@/components/site/OfferForm";
 import { SITE } from "@/app/data/site";
-import heroAppraisal from "@/public/assets/hero-appraisal.jpg";
-import officeImage from "@/public/assets/office-appraisal.jpg";
+import heroAppraisal from "@/public/assets/hero/appraisal-hero.jpg";
+import officeImage from "@/public/assets/examined/office-appraisal.png";
 
 const URL = "https://lux-offer-pro.lovable.app/about";
 const TITLE = "About InstaGold | Trusted NYC Gold & Watch Buyer";

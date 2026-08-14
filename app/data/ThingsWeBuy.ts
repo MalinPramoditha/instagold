@@ -1,9 +1,8 @@
 import officeImage from "@/public/assets/office-appraisal.jpg";
-import diamondsImage from "@/public/assets/cat-diamonds.jpg";
-import jewelryImage from "@/public/assets/cat-jewelry.jpg";
-import goldImage from "@/public/assets/cat-gold.jpg";
-import heroGold from "@/public/assets/hero-gold-refined.jpg";
-import watchImage from "@/public/assets/watch-feature.jpg";
+import diamondsImage from "@/public/assets/examined/diamonds-examined.png";
+import jewelryImage from "@/public/assets/examined/jewelry-examined.png";
+import goldImage from "@/public/assets/examined/gold-examined.png";
+import watchImage from "@/public/assets/examined/watch-examined.png";
 
 
 export const ThingsWeBuy = [

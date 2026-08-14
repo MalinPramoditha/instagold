@@ -38,7 +38,7 @@ export const goldData = {
         eyebrow: "New York · West 47th Street",
         title: "Cash for Gold in NYC",
         image: {
-            title: "hero-gold-refined",
+            title: "gold-hero",
             alt: "",
         },
         description: "Cash for gold in NYC starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell."
@@ -131,7 +131,7 @@ export const goldData = {
         align: "left",
         tone: "stone",
         image: {
-            title: "cat-gold",
+            title: "gold-examined",
             alt: "Specialist appraising a piece in the InstaGold 47th Street office"
         },
         eyebrow: "Fair value",
@@ -147,7 +147,7 @@ export const goldData = {
     },
 
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: {
             title: "office-appraisal",

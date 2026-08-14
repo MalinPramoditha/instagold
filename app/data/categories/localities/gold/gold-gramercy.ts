@@ -39,9 +39,9 @@ export const goldGramercyData = {
     ],
     hero: {
         eyebrow: "New York · Gramercy",
-        title: "hero-gold-refined",
+        title: "gold-hero",
         image: {
-            title: "cash-for-gold-gramercy-hero",
+            title: "gold-hero",
             alt: "Gold jewelry, coins and bullion on stone at the InstaGold 47th Street office, serving Gramercy sellers",
         },
         description: "Cash for gold in Gramercy starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. Gramercy is a short trip from our 47th Street office, so you can sell in person, explore your options with no pressure, and get paid the same day. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell.",
@@ -96,7 +96,7 @@ export const goldGramercyData = {
         link: { label: "", url: "", action: "" },
     },
     location: {
-        align: "left",
+        align: "right",
         tone: "white",
         image: { title: "office-appraisal", alt: "InstaGold specialist testing gold at the 47th Street Diamond District office" },
         eyebrow: "Location",
