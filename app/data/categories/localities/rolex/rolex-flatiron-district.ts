@@ -98,7 +98,7 @@ export const rolexFlatironDistrictData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Flatiron District",
         description: "The Flatiron District is a short ride from our 47th Street office, so selling your Rolex in person is quick, transparent, and paid the same day. InstaGold is minutes from the Flatiron District, near Madison Square Park and Bryant Park. Walk in during business hours or get an offer online first.",

@@ -98,7 +98,7 @@ export const rolexDumboData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near DUMBO",
         description: "From DUMBO, our 47th Street office is a quick ride across the river, so you can sell your Rolex in person instead of mailing it, and get paid the same day. InstaGold is a short subway ride from DUMBO into Manhattan and the Diamond District. Walk in during business hours or get an offer online first.",

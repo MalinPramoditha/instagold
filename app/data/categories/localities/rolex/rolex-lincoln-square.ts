@@ -98,7 +98,7 @@ export const rolexLincolnSquareData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Lincoln Square",
         description: "From Lincoln Square, our 47th Street office is a straight ride down, so you can sell your Rolex in person and get a fair, same-day offer. InstaGold is a direct ride from Lincoln Square, near Lincoln Center and Columbus Circle. Walk in during business hours or get an offer online first.",

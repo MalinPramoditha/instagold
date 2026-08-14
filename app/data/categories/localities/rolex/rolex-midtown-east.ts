@@ -98,7 +98,7 @@ export const rolexMidtownEastData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Midtown East",
         description: "Midtown East is right beside our 47th Street office, so you can sell your Rolex in person in minutes and get paid the same day. InstaGold is a few blocks from Midtown East, near Grand Central Terminal and Fifth Avenue. Walk in during business hours or get an offer online first.",

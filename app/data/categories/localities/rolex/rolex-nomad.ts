@@ -98,7 +98,7 @@ export const rolexNomadData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near NoMad",
         description: "NoMad is a short walk or ride from our 47th Street office, so you can sell your Rolex in person, watch the inspection, and get paid the same day. InstaGold is minutes from NoMad, near Madison Square Park and Bryant Park. Walk in during business hours or get an offer online first.",

@@ -11,7 +11,7 @@ export const SITE = {
     },
     mapsUrl:
         "https://www.google.com/maps/search/?api=1&query=31+W+47th+Street+Suite+202+New+York+NY+10036",
-    offerUrl: "/get-an-offer",
+    offerUrl: "/contact",
     reviewsUrl: "/reviews",
 };
 

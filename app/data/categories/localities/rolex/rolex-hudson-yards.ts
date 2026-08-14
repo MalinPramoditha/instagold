@@ -98,7 +98,7 @@ export const rolexHudsonYardsData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Hudson Yards",
         description: "Hudson Yards is a short ride from our 47th Street office, so you can sell your Rolex in person and get a fair, same-day offer. InstaGold is minutes from Hudson Yards, near Bryant Park and Times Square. Walk in during business hours or get an offer online first.",

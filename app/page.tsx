@@ -12,6 +12,7 @@ import { Testimonials } from "../components/site/Testimonials";
 
 import { homeData } from "./data/homeData";
 import { Metadata } from "next";
+import { RateSection } from "@/components/site/sections/RateSection";
 
 const metaData: Metadata = {
   title: homeData.meta.title,
@@ -21,6 +22,7 @@ export default async function Page() {
   return (
     <>
       <Hero />
+      <RateSection />
       <GetOfferSection />
       <TrustStrip />
       <WhatWeBuy />

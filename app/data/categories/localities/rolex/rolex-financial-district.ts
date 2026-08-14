@@ -98,7 +98,7 @@ export const rolexFinancialDistrictData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Financial District",
         description: "From the Financial District, our 47th Street office is a straight subway ride uptown, so you can sell your Rolex in person on a lunch break and get paid the same day. InstaGold is a direct subway ride from the Financial District and Wall Street up to the Diamond District. Walk in during business hours or get an offer online first.",

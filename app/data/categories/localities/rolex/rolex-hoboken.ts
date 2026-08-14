@@ -98,7 +98,7 @@ export const rolexHobokenData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Hoboken",
         description: "From Hoboken, our 47th Street office is a quick PATH ride into Manhattan, so you can sell your Rolex in person instead of mailing it, and get a fair, same-day offer. InstaGold is a quick PATH ride from Hoboken into Manhattan and the Diamond District. Walk in during business hours or get an offer online first.",

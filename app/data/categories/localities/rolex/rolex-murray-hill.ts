@@ -98,7 +98,7 @@ export const rolexMurrayHillData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Murray Hill",
         description: "Murray Hill is close to our 47th Street office, so selling your Rolex in person is quick and you get a fair, same-day offer. InstaGold is minutes from Murray Hill, near Grand Central Terminal. Walk in during business hours or get an offer online first.",

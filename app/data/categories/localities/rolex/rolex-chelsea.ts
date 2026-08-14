@@ -98,7 +98,7 @@ export const rolexChelseaData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Chelsea",
         description: "Chelsea is a short hop from our 47th Street office, so you can sell your Rolex in person, see the appraisal, and walk out paid the same day. InstaGold is minutes from Chelsea, near Bryant Park and Rockefeller Center. Walk in during business hours or get an offer online first.",

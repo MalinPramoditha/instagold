@@ -98,7 +98,7 @@ export const rolexUpperEastSideData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Upper East Side",
         description: "From the Upper East Side, our 47th Street office is a short ride down, so you can sell your Rolex in person and get a fair, same-day offer. InstaGold is a direct ride from the Upper East Side down to the Diamond District, near Fifth Avenue. Walk in during business hours or get an offer online first.",

@@ -98,7 +98,7 @@ export const rolexTribecaData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Tribeca",
         description: "Tribeca sits just south of the Diamond District, so selling your Rolex in person means no mailing, no waiting, and a real offer the same day. InstaGold is a quick trip from Tribeca up to the Diamond District, close to City Hall and the Financial District. Walk in during business hours or get an offer online first.",

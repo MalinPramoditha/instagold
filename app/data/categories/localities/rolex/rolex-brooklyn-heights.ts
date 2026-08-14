@@ -98,7 +98,7 @@ export const rolexBrooklynHeightsData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Rolex at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Rolex Near Brooklyn Heights",
         description: "From Brooklyn Heights, our 47th Street office is a quick ride across the river, so you can sell your Rolex in person and get a fair, same-day offer. InstaGold is a short subway ride from Brooklyn Heights into Manhattan and the Diamond District. Walk in during business hours or get an offer online first.",
