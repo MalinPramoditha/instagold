@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Metadata } from "next";
 
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
     title: "Privacy Policy | InstaGold",
     description: "How InstaGold collects, uses, and protects your personal information when you sell gold, watches, and jewelry with us.",
     alternates: {

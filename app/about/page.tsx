@@ -5,6 +5,7 @@ import { OfferForm } from "@/components/site/OfferForm";
 import { SITE } from "@/app/data/site";
 import heroAppraisal from "@/public/assets/hero/appraisal-hero.jpg";
 import officeImage from "@/public/assets/examined/office-appraisal.png";
+import { Metadata } from "next";
 
 const URL = "https://lux-offer-pro.lovable.app/about";
 const TITLE = "About InstaGold | Trusted NYC Gold & Watch Buyer";
@@ -69,6 +70,14 @@ const PILLARS = [
         body: "We price against the live market and real resale data. Our offers reflect what your item is truly worth today.",
     },
 ];
+
+export const metadata: Metadata = {
+    title: TITLE,
+    description: DESCRIPTION,
+    alternates: {
+        canonical: URL,
+    }
+}
 
 export default function Page() {
     return (

@@ -13,6 +13,7 @@ import diamondImg from "@/public/assets/blog-diamond-grading.jpg";
 import inheritedImg from "@/public/assets/blog-inherited-jewelry.jpg";
 import districtImg from "@/public/assets/blog-diamond-district.jpg";
 import BlogArticalCard from "@/components/site/blocks/BlogArticalCard";
+import { Metadata } from "next";
 
 const URL = "https://lux-offer-pro.lovable.app/blog";
 const TITLE = "Blog | Selling Gold, Watches & Jewelry in NYC | InstaGold";
@@ -102,6 +103,14 @@ const BLOG_POSTS = [FEATURED, ...ARTICLES.slice(1)].map((a) => ({
     articleSection: a.tag,
     image: a.image,
 }));
+
+export const metadata: Metadata = {
+    title: TITLE,
+    description: DESCRIPTION,
+    alternates: {
+        canonical: URL,
+    }
+}
 
 export default function Page() {
     return (

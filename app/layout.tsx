@@ -3,7 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/site/Header";
 import { Footer } from "../components/site/Footer";
 
-const metaData: Metadata = {
+export const metaData: Metadata = {
   title: "Sell Gold NYC | Diamond District Gold Buyer | InstaGold",
   description: "Sell gold, coins, bullion, diamonds and luxury watches in NYC. Licensed Diamond District buyer on 47th St paying live spot prices, same day. Free offer.",
   alternates: {

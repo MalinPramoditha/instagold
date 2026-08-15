@@ -2,7 +2,7 @@ import { Container, Section } from "@/components/site/ui";
 import { Metadata } from "next";
 import Link from "next/link";
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
   title: "Terms and Conditions | InstaGold",
   description: "The terms and conditions for selling gold, watches, and jewelry to InstaGold at our licensed NYC Diamond District location.",
   alternates: {
