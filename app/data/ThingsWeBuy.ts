@@ -8,7 +8,7 @@ import watchImage from "@/public/assets/home/watch-small.png";
 export const ThingsWeBuy = [
     {
         title: "Gold & Precious Metals",
-        body: "Jewelry, bullion, coins, scrap, platinum and silver — weighed and karat-tested in front of you at live spot prices.",
+        body: "Jewelry, bullion, coins, scrap, platinum and silver, weighed and karat-tested in front of you at live spot prices.",
         href: "/cash-for-gold-nyc",
         image: goldImage,
         alt: "Gold bars and coins on a dark stone surface",

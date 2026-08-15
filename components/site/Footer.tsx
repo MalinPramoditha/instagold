@@ -93,7 +93,7 @@ export function Footer() {
                         <BrandMark tone="light" />
                         <p className="mt-4 text-sm leading-relaxed text-[oklch(0.78_0.01_80)]">
                             A New York gold buyer and refinery in the Diamond District. We pay live spot-based prices for
-                            gold, bullion, coins and precious metals, and also buy diamonds and luxury watches — with
+                            gold, bullion, coins and precious metals, and also buy diamonds and luxury watches, with
                             transparent testing and private, confidential transactions.
                         </p>
                         <address className="mt-6 space-y-1 text-sm not-italic text-[oklch(0.78_0.01_80)]">

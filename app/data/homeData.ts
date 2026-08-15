@@ -36,7 +36,7 @@ export const homeData = {
         steps: [
             {
                 title: "Tell us what you have",
-                body: "One short form — category, rough weight or details, photos if you have them. Under a minute, no cost.",
+                body: "One short form,category, rough weight or details, photos if you have them. Under a minute, no cost.",
             },
             {
                 title: "See the live spot-based number",
@@ -44,7 +44,7 @@ export const homeData = {
             },
             {
                 title: "Accept and get paid",
-                body: "Accept and choose cash, cheque or bank transfer. Same-day payment is available.",
+                body: "Accept and choose cash, cheque or bank transfer. Same day payment is available.",
             },
         ]
     },
