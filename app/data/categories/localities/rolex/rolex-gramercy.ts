@@ -20,7 +20,7 @@ export const rolexGramercyData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-rolex-nyc/gramercy",
+            url: "https://instagoldbuyers.com/sell-rolex-nyc/gramercy",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

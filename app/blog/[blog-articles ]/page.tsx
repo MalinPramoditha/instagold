@@ -6,13 +6,21 @@ import { SITE } from "@/app/data/site";
 import heroImg from "@/public/assets/blog-sell-gold-nyc.jpg";
 import authorImg from "@/public/assets/author-placeholder.jpg";
 import Link from "next/link"
+import { Metadata } from "next/dist/types";
 
-const URL = "https://lux-offer-pro.lovable.app/blog/how-to-sell-gold-in-nyc-fast";
-const TITLE = "How to Sell Gold in NYC Fast | InstaGold";
+const URL = "https://instagoldbuyers.com/blog/how-to-sell-gold-in-nyc-fast";
+const TITLE = "Blog | Selling Gold, Watches & Jewelry in NYC | InstaGold";
 const DESCRIPTION =
-    "How to sell gold in NYC fast and still get a fair price. A simple same-day guide from InstaGold, a licensed buyer in the Diamond District.";
+    "Tips and guides on selling gold, watches, diamonds, and jewelry in NYC. Learn how to get the most for your valuables from InstaGold's experts.";
 const PUBLISHED = "2026-08-10";
 
+export const metadata: Metadata = {
+    title: TITLE,
+    description: DESCRIPTION,
+    alternates: {
+        canonical: URL,
+    }
+}
 
 function CtaCard() {
     return (

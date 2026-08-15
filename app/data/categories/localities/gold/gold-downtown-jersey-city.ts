@@ -20,7 +20,7 @@ export const goldDowntownJerseyCityData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/cash-for-gold-nyc/downtown-jersey-city",
+            url: "https://instagoldbuyers.com/cash-for-gold-nyc/downtown-jersey-city",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

@@ -19,7 +19,7 @@ export const dentalGoldData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-dental-gold-nyc",
+            url: "https://instagoldbuyers.com/sell-dental-gold-nyc",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

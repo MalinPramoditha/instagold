@@ -20,7 +20,7 @@ export const cartierNomadData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-cartier-nyc/nomad",
+            url: "https://instagoldbuyers.com/sell-cartier-nyc/nomad",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

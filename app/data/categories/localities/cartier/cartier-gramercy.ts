@@ -20,7 +20,7 @@ export const cartierGramercyData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-cartier-nyc/gramercy",
+            url: "https://instagoldbuyers.com/sell-cartier-nyc/gramercy",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

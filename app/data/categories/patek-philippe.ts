@@ -20,7 +20,7 @@ export const patekPhilippeData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-patek-philippe-nyc",
+            url: "https://instagoldbuyers.com/sell-patek-philippe-nyc",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

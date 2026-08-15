@@ -20,7 +20,7 @@ export const goldCoinSohoData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/gold-coin-buyers-nyc/soho",
+            url: "https://instagoldbuyers.com/gold-coin-buyers-nyc/soho",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

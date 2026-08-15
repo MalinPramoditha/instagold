@@ -4,7 +4,7 @@ import { Container, Cta, Eyebrow, Section } from "@/components/site/ui";
 import { OfferForm } from "@/components/site/OfferForm";
 import { SITE } from "@/app/data/site";
 
-const URL = "https://lux-offer-pro.lovable.app/contact";
+const URL = "https://instagoldbuyers.com/contact";
 const TITLE = "Contact InstaGold | Gold & Watch Buyer NYC";
 const DESCRIPTION =
     "Contact InstaGold, a licensed gold and watch buyer at 31 W 47th St in NYC's Diamond District. Call, visit, or get a free offer online. Same-day payment.";

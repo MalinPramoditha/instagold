@@ -20,7 +20,7 @@ export const goldCoinFlatironDistrictData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/gold-coin-buyers-nyc/flatiron-district",
+            url: "https://instagoldbuyers.com/gold-coin-buyers-nyc/flatiron-district",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

@@ -20,7 +20,7 @@ export const cartierFinancialDistrictData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-cartier-nyc/financial-district",
+            url: "https://instagoldbuyers.com/sell-cartier-nyc/financial-district",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Privacy Policy | InstaGold",
     description: "How InstaGold collects, uses, and protects your personal information when you sell gold, watches, and jewelry with us.",
     alternates: {
-        canonical: "https://lux-offer-pro.lovable.app/privacy-policy",
+        canonical: "https://instagoldbuyers.com/privacy-policy",
     },
 };
 

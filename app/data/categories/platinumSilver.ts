@@ -19,7 +19,7 @@ export const platinumSilverData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-platinum-silver-nyc",
+            url: "https://instagoldbuyers.com/sell-platinum-silver-nyc",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

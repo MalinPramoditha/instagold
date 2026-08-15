@@ -20,7 +20,7 @@ export const audemarsPiguetSohoData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-audemars-piguet-nyc/soho",
+            url: "https://instagoldbuyers.com/sell-audemars-piguet-nyc/soho",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

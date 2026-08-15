@@ -7,7 +7,7 @@ import heroAppraisal from "@/public/assets/hero/appraisal-hero.jpg";
 import officeImage from "@/public/assets/examined/office-appraisal.png";
 import { Metadata } from "next";
 
-const URL = "https://lux-offer-pro.lovable.app/about";
+const URL = "https://instagoldbuyers.com/about";
 const TITLE = "About InstaGold | Trusted NYC Gold & Watch Buyer";
 const DESCRIPTION =
     "Learn about InstaGold, a licensed gold, watch, and jewelry buyer in NYC's Diamond District. Fair offers, expert evaluation, and same-day payment.";

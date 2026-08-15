@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageParams) {
         title: data.meta.title,
         description: data.meta.description,
         alternates: {
-            canonical: `https://lux-offer-pro.lovable.app/${category}`,
+            canonical: `https://instagoldbuyers.com/${category}`,
         }
     }
 

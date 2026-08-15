@@ -20,7 +20,7 @@ export const goldCoinHudsonYardsData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/gold-coin-buyers-nyc/hudson-yards",
+            url: "https://instagoldbuyers.com/gold-coin-buyers-nyc/hudson-yards",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

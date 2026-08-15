@@ -20,7 +20,7 @@ export const jaegerLecoultreData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-jaeger-lecoultre-nyc",
+            url: "https://instagoldbuyers.com/sell-jaeger-lecoultre-nyc",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

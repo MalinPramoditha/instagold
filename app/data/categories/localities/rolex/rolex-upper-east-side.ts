@@ -20,7 +20,7 @@ export const rolexUpperEastSideData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-rolex-nyc/upper-east-side",
+            url: "https://instagoldbuyers.com/sell-rolex-nyc/upper-east-side",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

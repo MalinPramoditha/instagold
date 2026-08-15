@@ -19,7 +19,7 @@ export const goldBullionData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-gold-bullion-nyc",
+            url: "https://instagoldbuyers.com/sell-gold-bullion-nyc",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

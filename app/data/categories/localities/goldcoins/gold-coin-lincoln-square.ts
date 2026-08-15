@@ -20,7 +20,7 @@ export const goldCoinLincolnSquareData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/gold-coin-buyers-nyc/lincoln-square",
+            url: "https://instagoldbuyers.com/gold-coin-buyers-nyc/lincoln-square",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

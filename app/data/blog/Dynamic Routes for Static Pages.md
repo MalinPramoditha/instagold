@@ -9,7 +9,7 @@ heroImageAlt: "Gold chains, rings and coins weighed on a jeweler's scale in a Ne
 category: "Gold"
 date: "August 2026"
 licenseText: "Licensed NYC buyer, Lic# 2134780-DCWP, 47th Street Diamond District."
-url: "https://lux-offer-pro.lovable.app/blog/how-to-sell-gold-in-nyc-fast"
+url: "https://instagoldbuyers.com/blog/how-to-sell-gold-in-nyc-fast"
 ---
 
 How to sell gold in NYC fast comes down to three things: knowing what your gold is worth, choosing a licensed buyer, and skipping the steps that slow you down. If you want cash the same day and a fair price, this short guide walks you through it.

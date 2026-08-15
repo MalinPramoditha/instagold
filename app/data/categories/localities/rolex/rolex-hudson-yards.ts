@@ -20,7 +20,7 @@ export const rolexHudsonYardsData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-rolex-nyc/hudson-yards",
+            url: "https://instagoldbuyers.com/sell-rolex-nyc/hudson-yards",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",

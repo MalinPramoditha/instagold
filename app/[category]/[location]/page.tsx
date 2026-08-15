@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: PageParams) {
     return {
         title: data.meta.title,
         description: data.meta.description,
-        alternates: { canonical: `https://lux-offer-pro.lovable.app/${lookupKey}` }
+        alternates: { canonical: `https://instagoldbuyers.com/${lookupKey}` }
     };
 }
 

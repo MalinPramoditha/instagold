@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Terms and Conditions | InstaGold",
   description: "The terms and conditions for selling gold, watches, and jewelry to InstaGold at our licensed NYC Diamond District location.",
   alternates: {
-    canonical: "https://lux-offer-pro.lovable.app/terms-and-conditions",
+    canonical: "https://instagoldbuyers.com/terms-and-conditions",
   },
 };
 

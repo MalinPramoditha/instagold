@@ -20,7 +20,7 @@ export const rolexMidtownEastData = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "InstaGold",
-            url: "https://lux-offer-pro.lovable.app/sell-rolex-nyc/midtown-east",
+            url: "https://instagoldbuyers.com/sell-rolex-nyc/midtown-east",
             telephone: "+1-212-901-5705",
             address: {
                 "@type": "PostalAddress",
