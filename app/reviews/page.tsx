@@ -4,6 +4,7 @@ import { ReviewCard } from "@/components/site/blocks/";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Quote, Star, Users, Wallet } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { reviewSchema } from "../data/schema/reviewSchema";
 
 const FILTERS = ["All", "Gold", "Watches", "Diamonds", "Jewelry"] as const;
 
@@ -98,6 +99,14 @@ export default function Page() {
     );
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema.localBusiness) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema.breadCrumbList) }}
+            />
             <Section tone="ivory" className="pb-8 sm:pb-10">
                 <Container className="text-center">
                     <Eyebrow>Reviews</Eyebrow>
