@@ -4,10 +4,14 @@ import { Check, ChevronDown, Lock } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { SITE } from "@/app/data/site";
 
+import { usePathname } from "next/navigation";
+
 const CATEGORIES = ["Gold", "Diamonds", "Watches", "Jewelry", "Other"] as const;
 
 const fieldClass =
     "mt-1.5 min-h-12 w-full rounded-md border bg-card px-3 text-base text-foreground placeholder:text-muted-foreground";
+
+
 
 export function OfferForm({
     initialCategory = "Gold",

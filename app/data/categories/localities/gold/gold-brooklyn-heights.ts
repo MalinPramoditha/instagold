@@ -87,7 +87,7 @@ export const goldBrooklynHeightsData = {
     about: {
         align: "left",
         tone: "stone",
-        image: { title: "cat-gold", alt: "Gold jewelry weighed on a jeweler's scale during an InstaGold evaluation" },
+        image: { title: "gold-examined", alt: "Gold jewelry weighed on a jeweler's scale during an InstaGold evaluation" },
         eyebrow: "Fair value",
         title: "Get More Cash for Your Gold",
         description: `Most sellers get less than their gold is worth. Pawn shops and mail-in services quote below market and count on you not checking the spot price.\n\nOn just a few ounces, the difference between a fair offer and a lowball can be thousands of dollars.\n\nInstaGold pays against the live market rate, weighs and tests your gold in front of you, and shows you exactly how your offer is calculated. Licensed, clear, and same day.`,

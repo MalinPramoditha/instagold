@@ -48,6 +48,9 @@ export const jaegerLecoultreData = {
         },
         description: "Sell your Jaeger-LeCoultre in NYC the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Reverso, Master, Polaris, and every JLC reference, with or without box and papers. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",
     },
+    offerForm: {
+        initialCategory: "Watches",
+    },
     process: {
         eyebrow: "How it works",
         title: "How It Works",

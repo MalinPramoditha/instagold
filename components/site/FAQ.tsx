@@ -31,7 +31,7 @@ export function FAQ({ data }: { data: any }) {
                         </a>{" "}
                         or{" "}
                         <a
-                            href="/contact-us"
+                            href="/contact"
                             className="font-medium text-foreground hover:text-brand"
                         >
                             book a private appointment

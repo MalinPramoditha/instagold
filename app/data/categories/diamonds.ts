@@ -34,7 +34,9 @@ export const diamondsData = {
         },
         description: "Sell diamonds in NYC with InstaGold, a licensed diamond buyer on 47th Street in the Diamond District, steps from Rockefeller Center and Fifth Avenue. We pay top cash for loose diamonds, engagement rings, and diamond jewelry. We grade every stone in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
-
+    offerForm: {
+        initialCategory: "Diamonds",
+    },
     process: {
         eyebrow: "How it works",
         title: "How It Works",

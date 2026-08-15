@@ -47,7 +47,9 @@ export const dentalGoldData = {
         },
         description: "Sell dental gold in NYC the easy way with InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for dental gold, scrap, and broken gold of every karat. We test, weigh, and value it in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
-
+    offerForm: {
+        initialCategory: "Gold",
+    },
     process: {
         eyebrow: "How it works",
         title: "How It Works",

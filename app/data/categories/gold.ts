@@ -43,7 +43,9 @@ export const goldData = {
         },
         description: "Cash for gold in NYC starts here. InstaGold is a licensed gold buyer on 47th Street in the Diamond District, paying top rates for gold jewelry, coins, and bullion. We test and weigh your gold in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
-
+    offerForm: {
+        initialCategory: "Gold",
+    },
     process: {
         eyebrow: "How it works",
         title: "How It Works",

@@ -47,7 +47,9 @@ export const goldCoinsData = {
         },
         description: "Gold coin buyers in NYC do not come more trusted than InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for bullion and rare gold coins. We test, weigh, and value your coins in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
-
+    offerForm: {
+        initialCategory: "Gold",
+    },
     process: {
         eyebrow: "How it works",
         title: "How It Works",

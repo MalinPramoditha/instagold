@@ -47,7 +47,9 @@ export const platinumSilverData = {
         },
         description: "Sell platinum in NYC the smart way with InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top rates for platinum and silver in every form, from bars and coins to jewelry and flatware. We test, weigh, and value it in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
-
+    offerForm: {
+        initialCategory: "Watches",
+    },
     process: {
         eyebrow: "How it works",
         title: "How It Works",

@@ -34,6 +34,10 @@ export const watchesData = {
         description: "Sell a used watch in NYC the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, steps from Rockefeller Center and Fifth Avenue, paying top cash for luxury and everyday watches. We inspect and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
 
+    offerForm: {
+        initialCategory: "Watches",
+    },
+
     process: {
         eyebrow: "How it works",
         title: "How It Works",

@@ -47,7 +47,9 @@ export const estateJewelryData = {
         },
         description: "Sell estate jewelry in NYC with confidence at InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top cash for antique, vintage, and inherited jewelry. We value every piece in front of you, for its gold, its stones, and its maker, and pay the same day. No appointment needed. No obligation to sell."
     },
-
+    offerForm: {
+        initialCategory: "Jewelry",
+    },
     process: {
         eyebrow: "How it works",
         title: "How It Works",

@@ -76,7 +76,7 @@ export default async function Page({ params }: PageParams) {
 
             {data.hero && <HeroSection data={data.hero} />}
             <RateSection />
-            <GetOfferSection />
+            <GetOfferSection initialCategory={data.offerForm?.initialCategory} />
             <TrustStrip />
             {data.companyDetails && <CompanyDetails data={data.companyDetails} />}
             {data.whatWeBuy && <Subcategory data={data.whatWeBuy} />}

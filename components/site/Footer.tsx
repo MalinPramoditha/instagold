@@ -63,7 +63,7 @@ const WHAT_WE_BUY = [
 ];
 
 const BRANDS = [
-    { label: "Rolex", href: "/sell-used-watch-nyc" },
+    { label: "Rolex", href: "/sell-rolex-nyc" },
     { label: "Patek Philippe", href: "/sell-patek-philippe-nyc" },
     { label: "Audemars Piguet", href: "/sell-audemars-piguet-nyc" },
     { label: "Cartier", href: "/sell-cartier-nyc" },

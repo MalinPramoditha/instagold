@@ -33,7 +33,9 @@ export const jewelryData = {
         },
         description: "Sell jewelry for cash in NYC with InstaGold, a licensed buyer on 47th Street in the Diamond District, steps from Rockefeller Center and Fifth Avenue. We pay top rates for gold, diamond, and designer jewelry. We test and value each piece in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
-
+    offerForm: {
+        initialCategory: "Jewelry",
+    },
     process: {
         eyebrow: "How it works",
         title: "How It Works",

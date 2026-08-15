@@ -47,7 +47,9 @@ export const goldBullionData = {
         },
         description: "Sell gold bullion in NYC the smart way with InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top spot-based rates for gold bars, rounds, and ingots. We test, weigh, and value your bullion in front of you and pay the same day. No appointment needed. No obligation to sell."
     },
-
+    offerForm: {
+        initialCategory: "Gold",
+    },
     process: {
         eyebrow: "How it works",
         title: "How It Works",

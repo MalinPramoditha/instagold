@@ -48,6 +48,9 @@ export const cartierData = {
         },
         description: "Sell your Cartier in NYC the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Santos, Tank, Ballon Bleu, and every Cartier reference, with or without box and papers. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",
     },
+    offerForm: {
+        initialCategory: "Watches",
+    },
     process: {
         eyebrow: "How it works",
         title: "How It Works",
