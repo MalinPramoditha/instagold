@@ -7,14 +7,14 @@ export const homeData = {
             "Sell gold, bullion, coins and scrap in New York at live spot-based prices. On-site testing, transparent offers and same-day payment at our West 47th Street refinery. We also buy diamonds and watches.",
     },
     about: {
-        align: "right",
+        align: "left",
         image: {
             title: "office-appraisal",
             alt: "Specialist appraising a piece in the InstaGold 47th Street office"
         },
         eyebrow: "Why InstaGold",
         title: "Two decades of refining and buying in the Diamond District",
-        description: "Gold paid at live spot-based rates, updated through the day,Karat testing and weighing done in front of you,A working refinery, so no middleman margin between you and the melt,Private Diamond District appointments, one to one,No-pressure offers and prompt payment after acceptance",
+        description: "",
         list: [
             "Gold paid at live spot-based rates, updated through the day",
             "Karat testing and weighing done in front of you",

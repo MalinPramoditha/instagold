@@ -1,18 +1,8 @@
-/* @import "https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&family=Jost:wght@400;500&display=swap"; */
+@import "https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&family=Jost:wght@400;500&display=swap";
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 /* @import "tw-animate-css"; */
-
-@font-face {
-  font-family: 'Commissioner';
-  src: url('/fonts/Commissioner-VariableFont_slnt,wght.woff2') format('woff2');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-
 
 @custom-variant dark (&:is(.dark *));
 
