@@ -104,14 +104,6 @@ const BLOG_POSTS = [FEATURED, ...ARTICLES.slice(1)].map((a) => ({
     image: a.image,
 }));
 
-export const metadata: Metadata = {
-    title: TITLE,
-    description: DESCRIPTION,
-    alternates: {
-        canonical: URL,
-    }
-}
-
 export default function Page() {
     return (
         <>

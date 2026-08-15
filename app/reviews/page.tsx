@@ -5,6 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Quote, Star, Users, Wallet } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { reviewSchema } from "../data/schema/reviewSchema";
+import { Metadata } from "next/dist/types";
 
 const FILTERS = ["All", "Gold", "Watches", "Diamonds", "Jewelry"] as const;
 
@@ -90,6 +91,11 @@ const REVIEWS: { quote: string; name: string; category: Category }[] = [
         category: "Jewelry",
     },
 ];
+
+export const metadata: Metadata = {
+    title: "InstaGold Reviews | NYC Gold & Watch Buyer, 47th St",
+    description: "Read reviews of InstaGold, the licensed NYC gold and luxury watch buyer on 47th Street. See what sellers say about our fair offers and same-day payment.",
+}
 
 export default function Page() {
     const [filter, setFilter] = useState<(typeof FILTERS)[number]>("All");
