@@ -19,7 +19,7 @@ const metaData: Metadata = {
   title: "Sell Gold NYC | Diamond District Gold Buyer | InstaGold",
   description: "Sell gold, coins, bullion, diamonds and luxury watches in NYC. Licensed Diamond District buyer on 47th St paying live spot prices, same day. Free offer.",
   alternates: {
-    canonical: "https://instagold-sigma.vercel.app/",
+    canonical: "https://instagoldbuyers.com/",
   },
   robots: {
     index: true,
@@ -28,11 +28,11 @@ const metaData: Metadata = {
   openGraph: {
     title: "Sell Gold NYC | Diamond District Gold Buyer | InstaGold",
     description: "Sell gold, coins, bullion, diamonds and luxury watches in NYC. Licensed Diamond District buyer on 47th St paying live spot prices, same day. Free offer.",
-    url: "https://instagold-sigma.vercel.app/",
+    url: "https://instagoldbuyers.com/",
     type: "website",
     images: [
       {
-        url: "https://instagold-sigma.vercel.app/assets/og-image.jpg",
+        url: "https://instagoldbuyers.com/assets/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "InstaGold",
@@ -47,7 +47,7 @@ const metaData: Metadata = {
     description: "Sell gold, coins, bullion, diamonds and luxury watches in NYC. Licensed Diamond District buyer on 47th St paying live spot prices, same day. Free offer.",
     images: [
       {
-        url: "https://instagold-sigma.vercel.app/assets/og-image.jpg",
+        url: "https://instagoldbuyers.com/assets/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "InstaGold",

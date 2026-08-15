@@ -2,10 +2,10 @@ export const reviewSchema = {
     localBusiness: {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://instagold-sigma.vercel.app/#business",
+        "@id": "https://instagoldbuyers.com/#business",
         "name": "InstaGold",
         "legalName": "InstaGold Buyers Refinery",
-        "url": "https://instagold-sigma.vercel.app/",
+        "url": "https://instagoldbuyers.com/",
         "telephone": "+1-212-901-5705",
         "address": {
             "@type": "PostalAddress",
@@ -101,8 +101,8 @@ export const reviewSchema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://instagold-sigma.vercel.app/" },
-            { "@type": "ListItem", "position": 2, "name": "Reviews", "item": "https://instagold-sigma.vercel.app/reviews" }
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://instagoldbuyers.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Reviews", "item": "https://instagoldbuyers.com/reviews" }
         ]
     },
 

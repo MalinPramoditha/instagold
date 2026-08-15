@@ -2,12 +2,12 @@ export const homeSchema = {
     localBusiness: {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://instagold-sigma.vercel.app/#business",
+        "@id": "https://instagoldbuyers.com/#business",
         "name": "InstaGold",
         "legalName": "InstaGold Buyers Refinery",
-        "url": "https://instagold-sigma.vercel.app/",
-        "image": "https://instagold-sigma.vercel.app/assets/og-image.jpg",
-        "logo": "https://instagold-sigma.vercel.app/assets/logo.png",
+        "url": "https://instagoldbuyers.com/",
+        "image": "https://instagoldbuyers.com/assets/og-image.jpg",
+        "logo": "https://instagoldbuyers.com/assets/logo.png",
         "telephone": "+1-212-901-5705",
         "priceRange": "$$",
         "address": {
@@ -57,20 +57,20 @@ export const homeSchema = {
     website: {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "@id": "https://instagold-sigma.vercel.app/#website",
-        "url": "https://instagold-sigma.vercel.app/",
+        "@id": "https://instagoldbuyers.com/#website",
+        "url": "https://instagoldbuyers.com/",
         "name": "InstaGold",
-        "publisher": { "@id": "https://instagold-sigma.vercel.app/#business" }
+        "publisher": { "@id": "https://instagoldbuyers.com/#business" }
     },
 
     organization: {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "@id": "https://instagold-sigma.vercel.app/#organization",
+        "@id": "https://instagoldbuyers.com/#organization",
         "name": "InstaGold",
         "legalName": "InstaGold Buyers Refinery",
-        "url": "https://instagold-sigma.vercel.app/",
-        "logo": "https://instagold-sigma.vercel.app/assets/logo.png",
+        "url": "https://instagoldbuyers.com/",
+        "logo": "https://instagoldbuyers.com/assets/logo.png",
         "telephone": "+1-212-901-5705",
         "address": {
             "@type": "PostalAddress",
@@ -84,9 +84,9 @@ export const homeSchema = {
     breadcrumbList: {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
-        "@id": "https://instagold-sigma.vercel.app/#breadcrumb",
+        "@id": "https://instagoldbuyers.com/#breadcrumb",
         "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://instagold-sigma.vercel.app/" }
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://instagoldbuyers.com/" }
         ]
     }
 }

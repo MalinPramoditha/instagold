@@ -17,7 +17,11 @@ export function HeroSection({ data }: { data: any }) {
             />
             <div
                 aria-hidden="true"
-                className="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/55 to-black/20"
+                className="absolute inset-0 -z-10 lg:bg-gradient-to-r lg:from-black/80 lg:via-black/55 lg:to-black/20"
+            />
+            <div
+                aria-hidden="true"
+                className="absolute inset-0 -z-10 bg-black/90 lg:hidden"
             />
             <Container className="py-16 sm:py-24 lg:py-32">
                 <div className="max-w-xl lg:max-w-2xl">

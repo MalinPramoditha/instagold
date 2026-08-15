@@ -57,8 +57,6 @@ export function Header() {
     }, [open]);
 
     const arctiveNav = usePathname();
-    console.log('active', arctiveNav)
-
 
     return (
         <header className="sticky top-0 z-50 border-b border-hairline bg-background/95 backdrop-blur">

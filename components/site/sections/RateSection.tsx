@@ -20,7 +20,6 @@ export function RateSection() {
         let currentIndex = 0;
         let timeoutId: NodeJS.Timeout;
 
-        // 1. Fetch all three immediately so the UI is fully populated right away
         async function fetchInitialAll() {
             try {
                 const results = await Promise.all(
@@ -42,11 +41,9 @@ export function RateSection() {
                 console.error("Failed to fetch initial rates:", error);
             }
 
-            // Start the rolling staggered updates after the initial load
             scheduleNextFetch();
         }
 
-        // 2. Fetch one metal at a time on a rotating schedule
         async function fetchSingleRate() {
             if (document.hidden || !isMounted) return;
 
@@ -60,7 +57,6 @@ export function RateSection() {
                     const key = data.symbol || data.metal || endpoint.key;
 
                     setRates((currentRates) => {
-                        // Save previous price for this specific metal before updating
                         if (currentRates[key]) {
                             setPrevPrices((prev) => ({
                                 ...prev,
@@ -78,7 +74,6 @@ export function RateSection() {
                 console.error(`Failed to fetch ${endpoint.key}:`, error);
             }
 
-            // Move to the next metal index, looping back to 0
             currentIndex = (currentIndex + 1) % ENDPOINTS.length;
 
             scheduleNextFetch();
@@ -86,12 +81,10 @@ export function RateSection() {
 
         function scheduleNextFetch() {
             if (isMounted) {
-                // Fetch the next single metal every 10 seconds
                 timeoutId = setTimeout(fetchSingleRate, 10000);
             }
         }
 
-        // Trigger the initial batch load on mount
         fetchInitialAll();
 
         return () => {
@@ -101,6 +94,7 @@ export function RateSection() {
     }, []);
 
     const ratesArray = Object.values(rates);
+
 
     return (
         <div className="border-y border-hairline bg-surface-light">
