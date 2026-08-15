@@ -3,10 +3,48 @@ import "./globals.css";
 import { Header } from "@/components/site/Header";
 import { Footer } from "../components/site/Footer";
 
-export const metadata: Metadata = {
-  title: "Sell Gold in NYC | InstaGold Buyers Refinery, 47th Street",
-  description: "Sell gold, bullion, coins and scrap in New York at live spot-based prices. On-site testing, transparent offers and same-day payment at our West 47th Street refinery. We also buy diamonds and watches.",
-};
+const metaData: Metadata = {
+  title: "Sell Gold NYC | Diamond District Gold Buyer | InstaGold",
+  description: "Sell gold, coins, bullion, diamonds and luxury watches in NYC. Licensed Diamond District buyer on 47th St paying live spot prices, same day. Free offer.",
+  alternates: {
+    canonical: "https://instagoldbuyers.com/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "Sell Gold NYC | Diamond District Gold Buyer | InstaGold",
+    description: "Sell gold, coins, bullion, diamonds and luxury watches in NYC. Licensed Diamond District buyer on 47th St paying live spot prices, same day. Free offer.",
+    url: "https://instagoldbuyers.com/",
+    type: "website",
+    images: [
+      {
+        url: "https://instagoldbuyers.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "InstaGold",
+      },
+    ],
+    siteName: "InstaGold",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sell Gold NYC | Diamond District Gold Buyer | InstaGold",
+    description: "Sell gold, coins, bullion, diamonds and luxury watches in NYC. Licensed Diamond District buyer on 47th St paying live spot prices, same day. Free offer.",
+    images: [
+      {
+        url: "https://instagoldbuyers.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "InstaGold",
+      },
+    ],
+  },
+
+}
+
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
