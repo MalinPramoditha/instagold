@@ -41,7 +41,7 @@ export const audemarsPiguetDowntownJerseyCityData = {
         eyebrow: "New York · Downtown Jersey City",
         title: "Sell Your Audemars Piguet in Downtown Jersey City",
         image: {
-            title: "audemars-piguet-downtown-jersey-city-hero",
+            title: "audemars-piguet-hero",
             alt: "Audemars Piguet watches on stone at the InstaGold 47th Street office, serving Downtown Jersey City sellers",
         },
         description: "Sell your Audemars Piguet in Downtown Jersey City the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Royal Oak, Royal Oak Offshore, and every AP reference, with or without box and papers. From Downtown Jersey City, our 47th Street office is a quick PATH ride into Manhattan, so you can sell in person and get a fair, same-day offer. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",
@@ -87,7 +87,7 @@ export const audemarsPiguetDowntownJerseyCityData = {
     about: {
         align: "left",
         tone: "stone",
-        image: { title: "cat-gold", alt: "A Audemars Piguet watch inspected with a loupe during an InstaGold evaluation" },
+        image: { title: "audemars-piguet-examined", alt: "A Audemars Piguet watch inspected with a loupe during an InstaGold evaluation" },
         eyebrow: "Fair value",
         title: "Get More for Your Audemars Piguet",
         description: `Most people who sell a Audemars Piguet are underpaid. Pawn shops and quick-cash buyers offer a fraction of resale value and count on you not knowing what your reference is really worth.\n\nA Audemars Piguet is valued on its model and reference, its condition and service history, the originality of its parts, and current collector demand, not on gold weight or a generic estimate.\n\nInstaGold prices your Audemars Piguet against current resale and auction data, authenticates it in front of you, and explains exactly how each part of the offer is determined. Licensed, clear, and same day.`,
@@ -98,7 +98,7 @@ export const audemarsPiguetDowntownJerseyCityData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Audemars Piguet at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Audemars Piguet at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Audemars Piguet Near Downtown Jersey City",
         description: "From Downtown Jersey City, our 47th Street office is a quick PATH ride into Manhattan, so you can sell in person and get a fair, same-day offer. InstaGold is a quick PATH ride from Downtown Jersey City into Manhattan and the Diamond District. Walk in during business hours or get an offer online first.",

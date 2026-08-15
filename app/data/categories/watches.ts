@@ -144,7 +144,7 @@ export const watchesData = {
         align: "right",
         tone: "white",
         image: {
-            title: "watches-end",
+            title: "rolex-end",
             alt: "InstaGold specialist valuing a watch at the 47th Street Diamond District office"
         },
         eyebrow: "Location",

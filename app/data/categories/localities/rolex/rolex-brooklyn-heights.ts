@@ -39,9 +39,9 @@ export const rolexBrooklynHeightsData = {
     ],
     hero: {
         eyebrow: "New York · Brooklyn Heights",
-        title: "watches-hero",
+        title: "Sell Your Rolex in Brooklyn Heights",
         image: {
-            title: "rolex-brooklyn-heights-hero",
+            title: "rolex-hero",
             alt: "Rolex watches on stone at the InstaGold 47th Street office, serving Brooklyn Heights sellers",
         },
         description: "Selling a Rolex from Brooklyn Heights is easy with InstaGold. We are a licensed Rolex buyer across the river on 47th Street in the Diamond District, paying top cash for every Rolex model, with or without box and papers. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",
@@ -87,7 +87,7 @@ export const rolexBrooklynHeightsData = {
     about: {
         align: "left",
         tone: "stone",
-        image: { title: "watch-feature", alt: "A Rolex watch inspected with a loupe during an InstaGold evaluation" },
+        image: { title: "rolex-examined", alt: "A Rolex watch inspected with a loupe during an InstaGold evaluation" },
         eyebrow: "Fair value",
         title: "Get More for Your Rolex",
         description: `Most people who sell a Rolex are underpaid. Pawn shops and quick-cash buyers offer a fraction of resale value and count on you not knowing what your reference is really worth.\n\nA Rolex is valued on its model and reference, its condition and service history, the originality of its parts, and current collector demand, not on gold weight or a generic estimate.\n\nInstaGold prices your Rolex against current resale and auction data, authenticates it in front of you, and explains exactly how each part of the offer is determined. Licensed, clear, and same day.`,

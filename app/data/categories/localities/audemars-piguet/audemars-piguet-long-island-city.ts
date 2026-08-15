@@ -41,7 +41,7 @@ export const audemarsPiguetLongIslandCityData = {
         eyebrow: "New York · Long Island City",
         title: "Sell Your Audemars Piguet in Long Island City",
         image: {
-            title: "audemars-piguet-long-island-city-hero",
+            title: "audemars-piguet-hero",
             alt: "Audemars Piguet watches on stone at the InstaGold 47th Street office, serving Long Island City sellers",
         },
         description: "Sell your Audemars Piguet in Long Island City the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Royal Oak, Royal Oak Offshore, and every AP reference, with or without box and papers. From Long Island City, our 47th Street office is a quick ride into Midtown, so you can sell in person on your schedule and get paid the same day. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",
@@ -87,7 +87,7 @@ export const audemarsPiguetLongIslandCityData = {
     about: {
         align: "left",
         tone: "stone",
-        image: { title: "cat-gold", alt: "A Audemars Piguet watch inspected with a loupe during an InstaGold evaluation" },
+        image: { title: "audemars-piguet-examined", alt: "A Audemars Piguet watch inspected with a loupe during an InstaGold evaluation" },
         eyebrow: "Fair value",
         title: "Get More for Your Audemars Piguet",
         description: `Most people who sell a Audemars Piguet are underpaid. Pawn shops and quick-cash buyers offer a fraction of resale value and count on you not knowing what your reference is really worth.\n\nA Audemars Piguet is valued on its model and reference, its condition and service history, the originality of its parts, and current collector demand, not on gold weight or a generic estimate.\n\nInstaGold prices your Audemars Piguet against current resale and auction data, authenticates it in front of you, and explains exactly how each part of the offer is determined. Licensed, clear, and same day.`,
@@ -98,7 +98,7 @@ export const audemarsPiguetLongIslandCityData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Audemars Piguet at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Audemars Piguet at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Audemars Piguet Near Long Island City",
         description: "From Long Island City, our 47th Street office is a quick ride into Midtown, so you can sell in person on your schedule and get paid the same day. InstaGold is a short subway ride from Long Island City into Midtown and the Diamond District. Walk in during business hours or get an offer online first.",

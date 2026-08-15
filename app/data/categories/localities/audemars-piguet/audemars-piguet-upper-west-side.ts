@@ -41,7 +41,7 @@ export const audemarsPiguetUpperWestSideData = {
         eyebrow: "New York · Upper West Side",
         title: "Sell Your Audemars Piguet in Upper West Side",
         image: {
-            title: "audemars-piguet-upper-west-side-hero",
+            title: "audemars-piguet-hero",
             alt: "Audemars Piguet watches on stone at the InstaGold 47th Street office, serving Upper West Side sellers",
         },
         description: "Sell your Audemars Piguet in Upper West Side the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Royal Oak, Royal Oak Offshore, and every AP reference, with or without box and papers. From the Upper West Side, our 47th Street office is a straight ride down, so you can sell in person and get a fair, same-day offer. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",
@@ -87,7 +87,7 @@ export const audemarsPiguetUpperWestSideData = {
     about: {
         align: "left",
         tone: "stone",
-        image: { title: "cat-gold", alt: "A Audemars Piguet watch inspected with a loupe during an InstaGold evaluation" },
+        image: { title: "audemars-piguet-examined", alt: "A Audemars Piguet watch inspected with a loupe during an InstaGold evaluation" },
         eyebrow: "Fair value",
         title: "Get More for Your Audemars Piguet",
         description: `Most people who sell a Audemars Piguet are underpaid. Pawn shops and quick-cash buyers offer a fraction of resale value and count on you not knowing what your reference is really worth.\n\nA Audemars Piguet is valued on its model and reference, its condition and service history, the originality of its parts, and current collector demand, not on gold weight or a generic estimate.\n\nInstaGold prices your Audemars Piguet against current resale and auction data, authenticates it in front of you, and explains exactly how each part of the offer is determined. Licensed, clear, and same day.`,
@@ -98,7 +98,7 @@ export const audemarsPiguetUpperWestSideData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Audemars Piguet at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Audemars Piguet at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Audemars Piguet Near Upper West Side",
         description: "From the Upper West Side, our 47th Street office is a straight ride down, so you can sell in person and get a fair, same-day offer. InstaGold is a direct ride from the Upper West Side down to the Diamond District, near Lincoln Center. Walk in during business hours or get an offer online first.",

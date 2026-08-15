@@ -87,7 +87,7 @@ export const cartierSohoData = {
     about: {
         align: "left",
         tone: "stone",
-        image: { title: "cat-gold", alt: "A Cartier watch inspected with a loupe during an InstaGold evaluation" },
+        image: { title: "cartier-examined", alt: "A Cartier watch inspected with a loupe during an InstaGold evaluation" },
         eyebrow: "Fair value",
         title: "Get More for Your Cartier",
         description: `Most people who sell a Cartier are underpaid. Pawn shops and quick-cash buyers offer a fraction of resale value and count on you not knowing what your reference is really worth.\n\nA Cartier is valued on its model and reference, its condition and service history, the originality of its parts, and current collector demand, not on gold weight or a generic estimate.\n\nInstaGold prices your Cartier against current resale and auction data, authenticates it in front of you, and explains exactly how each part of the offer is determined. Licensed, clear, and same day.`,
@@ -98,7 +98,7 @@ export const cartierSohoData = {
     location: {
         align: "right",
         tone: "white",
-        image: { title: "office-appraisal", alt: "InstaGold specialist authenticating a Cartier at the 47th Street Diamond District office" },
+        image: { title: "rolex-end", alt: "InstaGold specialist authenticating a Cartier at the 47th Street Diamond District office" },
         eyebrow: "Location",
         title: "Where to Sell a Cartier Near SoHo",
         description: "From SoHo, our 47th Street office is a quick trip uptown, so you can sell face to face and get a fair, same-day offer instead of mailing it away. InstaGold is a short ride from SoHo up to the Diamond District. Walk in during business hours or get an offer online first.",
