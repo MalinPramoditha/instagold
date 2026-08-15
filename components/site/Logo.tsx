@@ -1,6 +1,7 @@
 import { cn } from "@/app/lib/utils";
-import black from "../../public/assets/logo/logo_black.svg";
-import white from "../../public/assets/logo/logo_white.svg";
+import black from "../../public/assets/logo/logo_black.png";
+import white from "../../public/assets/logo/logo_white.png";
+import Image from "next/image";
 
 // 140x40
 const logoWhite = (
@@ -49,23 +50,25 @@ export function BrandMark({
 
 
   return (
-    <div className={cn("flex h-8 w-auto sm:h-10 justify-start items-center", className)}>
-      <svg
-        viewBox="0 0 560 168"
-        width="100%"
-        height="100%"
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-auto h-full object-contain"
-      >
-        {tone === "light" ? logoWhite : logoBlack}
-      </svg>
-    </div>
-    // <img
-    //   src={tone === "light" ? white.src : black.src}
-    //   alt="InstaGold"
-    //   className={cn("block h-8 w-auto sm:h-10", className)}
-    //   loading="eager"
-    //   decoding="async"
-    // />
+    // <div className={cn("flex sm:h-10 h-8 justify-start items-center w-40", className)}>
+    //   <svg
+    //     viewBox="0 0 560 168"
+    //     width="100%"
+    //     height="100%"
+    //     xmlns="http://www.w3.org/2000/svg"
+    //     className="w-auto h-full object-contain"
+    //   >
+    //     {tone === "light" ? logoWhite : logoBlack}
+    //   </svg>
+    // </div>
+    <Image
+      width={140}
+      height={40}
+      src={tone === "light" ? white.src : black.src}
+      alt="InstaGold"
+      className={cn("block h-8 w-auto sm:h-10", className)}
+      loading="eager"
+      decoding="async"
+    />
   );
 }

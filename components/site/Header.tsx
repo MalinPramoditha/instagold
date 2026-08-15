@@ -12,7 +12,7 @@ function Logo({ className }: { className?: string }) {
     return (
         <a
             href="/"
-            className={cn("inline-flex w-fit items-center justify-self-start leading-none", className)}
+            className={cn("inline-flex items-center", className)}
             aria-label="InstaGold home"
         >
             <BrandMark />
@@ -64,7 +64,7 @@ export function Header() {
         <header className="sticky top-0 z-50 border-b border-hairline bg-background/95 backdrop-blur">
             <UtilityBar />
             <Container className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-4 lg:py-5">
-                <Logo className="min-w-0" />
+                <Logo />
 
                 <nav aria-label="Main" className="hidden items-center gap-7 lg:flex">
                     <div
