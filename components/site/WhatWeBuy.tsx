@@ -28,7 +28,7 @@ export function WhatWeBuy() {
                                     href={c.href}
                                     className="mt-4 font-medium text-link underline underline-offset-4 hover:text-link-dark"
                                 >
-                                    Explore {c.title}
+                                    Sell {c.title}
                                 </a>
                             </div>
                         </li>
