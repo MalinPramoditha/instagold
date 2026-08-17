@@ -13,6 +13,7 @@ export const SITE = {
         "https://www.google.com/maps/search/?api=1&query=31+W+47th+Street+Suite+202+New+York+NY+10036",
     offerUrl: "/contact",
     reviewsUrl: "/reviews",
+    ogImage: "https://instagoldbuyers.com/assets/og-image.jpg",
 };
 
 export const TRUST_POINTS = [

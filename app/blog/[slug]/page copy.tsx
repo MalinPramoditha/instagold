@@ -1,12 +1,14 @@
 import { ShieldCheck } from "lucide-react";
-
 import { Container, Cta, Section } from "@/components/site/ui";
 import { SITE } from "@/app/data/site";
-
 import heroImg from "@/public/assets/blog-sell-gold-nyc.jpg";
 import authorImg from "@/public/assets/author-placeholder.jpg";
 import Link from "next/link"
 import { Metadata } from "next/dist/types";
+
+import { PortableText, type SanityDocument } from "next-sanity";
+import { createImageUrlBuilder, type SanityImageSource } from "@sanity/image-url";
+import { client } from "@/app/sanity/client";
 
 const URL = "https://instagoldbuyers.com/blog/how-to-sell-gold-in-nyc-fast";
 const TITLE = "Blog | Selling Gold, Watches & Jewelry in NYC | InstaGold";
@@ -21,6 +23,15 @@ export const metadata: Metadata = {
         canonical: URL,
     }
 }
+const POST_QUERY = `*[_type == "post" && slug.current == $slug][0]`;
+
+const { projectId, dataset } = client.config();
+
+const urlFor = (source: SanityImageSource) =>
+    projectId && dataset
+        ? createImageUrlBuilder({ projectId, dataset }).image(source)
+        : null;
+const options = { next: { revalidate: 30 } };
 
 function CtaCard() {
     return (
@@ -39,7 +50,9 @@ function CtaCard() {
     );
 }
 
-export default function Page() {
+export default async function Page({ params }: { params: { slug: string } }) {
+    const { slug } = params;
+    const post = await client.fetch<SanityDocument>(POST_QUERY, await params, options);
     return (
         <>
             <Section tone="ivory" className="pb-8 sm:pb-10">

@@ -3,14 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 
-type Article = {
-    title: string;
-    tag: string;
-    excerpt: string;
-    href: string;
-    image: string;
-    alt: string;
-};
+
 
 function useReveal() {
     const ref = useRef<HTMLLIElement | null>(null);
@@ -38,7 +31,7 @@ function useReveal() {
     return { ref, shown };
 }
 
-export default function BlogArticalCard({ article, index }: { article: Article; index: number }) {
+export default function BlogArticalCard({ article, index }: { article: any; index: number }) {
     const { ref, shown } = useReveal();
     return (
         <li
@@ -50,10 +43,10 @@ export default function BlogArticalCard({ article, index }: { article: Article; 
                 shown ? "translate-y-0 opacity-100" : "translate-y-3 opacity-0",
             )}
         >
-            <a href={article.href} className="group flex h-full flex-col">
+            <a href={`/blog/${article.slug.current}`} className="group flex h-full flex-col">
                 <div className="aspect-[16/9] w-full overflow-hidden bg-surface-light">
                     <img
-                        src={article.image}
+                        src={article.imageUrl}
                         alt={article.alt}
                         width={1024}
                         height={576}
@@ -62,7 +55,7 @@ export default function BlogArticalCard({ article, index }: { article: Article; 
                     />
                 </div>
                 <div className="flex flex-col p-4 pb-2.5">
-                    <span className="eyebrow">{article.tag}</span>
+                    <span className="eyebrow">{article.category}</span>
                     <h3 className="mt-2 text-base leading-tight text-foreground">{article.title}</h3>
                     <p className="mt-1.5 line-clamp-3 text-sm leading-relaxed text-muted-foreground">{article.excerpt}</p>
                     <span className="inline-flex items-center gap-1.5 pt-2 text-sm font-medium text-link">

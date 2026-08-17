@@ -1,5 +1,8 @@
 import BlogHome from "@/components/site/BlogHome";
 import { Metadata } from "next";
+import Link from "next/link";
+import { type SanityDocument } from "next-sanity";
+import { client } from "../sanity/client";
 
 export const metadata: Metadata = {
     title: "Blog | Selling Gold, Watches & Jewelry in NYC | InstaGold",
@@ -9,11 +12,27 @@ export const metadata: Metadata = {
     }
 }
 
+const POSTS_QUERY = `*[
+  _type == "post"
+  && defined(slug.current)
+]|order(publishedAt desc)[0...12]{
+  _id, 
+  title, 
+  slug, 
+  publishedAt, 
+  category,
+  featured,
+  "imageUrl": image.asset->url,
+"excerpt": body[0].children[0].text}`;
 
-export default function Page() {
+const options = { next: { revalidate: 60 } }
+
+export default async function Page() {
+    const posts = await client.fetch<SanityDocument[]>(POSTS_QUERY, {}, options);
+    console.log(posts)
     return (
         <>
-            <BlogHome />
+            <BlogHome data={posts} />
         </>
     );
 }

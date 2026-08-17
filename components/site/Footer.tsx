@@ -160,11 +160,14 @@ export function Footer() {
                         </li>
                     </ul>
                 </div>
-                <p className="mt-6 max-w-3xl text-xs leading-relaxed text-[oklch(0.65_0.01_80)]">
-                    InstaGold Buyers Refinery is an independent dealer and is not affiliated with, sponsored by or
-                    endorsed by Rolex or any other watch or jewelry manufacturer named on this website. All brand
-                    names and trademarks are the property of their respective owners.
-                </p>
+                <div className="flex justify-between items-end text-xs leading-relaxed text-[oklch(0.65_0.01_80)]">
+                    <p className="mt-6 max-w-3xl text-xs leading-relaxed text-[oklch(0.65_0.01_80)]">
+                        InstaGold Buyers Refinery is an independent dealer and is not affiliated with, sponsored by or
+                        endorsed by Rolex or any other watch or jewelry manufacturer named on this website. All brand
+                        names and trademarks are the property of their respective owners.
+                    </p>
+                    <p>Developed and Maintained by <a href="https://seopersonalinjurylawyer.com" className="hover:text-brand" target="blank" >CaseAuthority LLC</a>.</p>
+                </div>
             </Container>
         </footer>
     );
