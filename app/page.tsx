@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://instagoldbuyers.com/assets/og-image.png",
+        url: "https://instagoldbuyers.com/assets/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "InstaGold",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description: "Sell gold, coins, bullion, diamonds and luxury watches in NYC. Licensed Diamond District buyer on 47th St paying live spot prices, same day. Free offer.",
     images: [
       {
-        url: "https://instagoldbuyers.com/assets/og-image.png",
+        url: "https://instagoldbuyers.com/assets/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "InstaGold",
