@@ -6,7 +6,7 @@ export const homeSchema = {
         "name": "InstaGold",
         "legalName": "InstaGold Buyers Refinery",
         "url": "https://instagoldbuyers.com/",
-        "image": "https://instagoldbuyers.com/assets/og-image.jpg",
+        "image": "https://instagoldbuyers.com/assets/og-image.png",
         "logo": "https://instagoldbuyers.com/assets/logo.png",
         "telephone": "+1-212-901-5705",
         "priceRange": "$$",
