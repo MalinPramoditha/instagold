@@ -47,7 +47,7 @@ export function OfferForm({
         if (contact.trim().length < 6) next.contact = "Please enter your email or phone number.";
         setErrors(next);
         if (Object.keys(next).length) return;
-
+        setLoading(true);
         const res = await submitOffer({ name, email: contact, phone: contact, category, description });
         setLoading(false);
         if (res.code === 500) {
