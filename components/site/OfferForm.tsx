@@ -50,12 +50,12 @@ export function OfferForm({
 
         const res = await submitOffer({ name, email: contact, phone: contact, category, description });
         setLoading(false);
-        if (res.error) {
+        if (res.code === 500) {
             setLoading(false);
-            console.log(res.error);
-            setErrors({ contact: res.error });
+            console.log(res.message);
         } else {
             setDone(true);
+            console.log(res.success)
             setLoading(false);
         }
     }

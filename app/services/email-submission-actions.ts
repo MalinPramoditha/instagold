@@ -179,11 +179,11 @@ export async function submitOffer(data: {
 
         const info = await transporter.sendMail(mailOptions);
 
-        return { success: true, messageId: info.messageId };
+        return { success: info.envelope, messageId: info.messageId };
 
     } catch (error) {
         console.log(error);
-        return { error: "Something went wrong" };
+        return { message: error, code: 500 };
     }
 
 }
