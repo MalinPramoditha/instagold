@@ -1,6 +1,6 @@
 "use client"
 import { useId, useRef, useState } from "react";
-import { Check, ChevronDown, Lock } from "lucide-react";
+import { Check, ChevronDown, Loader2, Lock } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { SITE } from "@/app/data/site";
 
@@ -185,13 +185,17 @@ export function OfferForm({
             ) : (
                 <button
                     type="button"
+                    disabled={loading}
                     onClick={() => {
                         setOpen(true);
                         markStarted();
                     }}
                     className="mt-5 inline-flex min-h-12 w-full items-center justify-center rounded-md bg-brand px-6 text-base font-semibold text-ink transition-colors hover:bg-brand-hover"
                 >
-                    Get My Free Offer
+                    {loading ? (
+                        <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Submitting...</>
+                    ) : "Get My Free Offer"}
+
                 </button>
             )}
         </div>
