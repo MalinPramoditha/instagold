@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { SITE } from "@/app/data/site";
 
 import { usePathname } from "next/navigation";
+import { submitOffer } from "@/app/services/email-submission-actions";
 
 const CATEGORIES = ["Gold", "Diamonds", "Watches", "Jewelry", "Other"] as const;
 
@@ -31,6 +32,7 @@ export function OfferForm({
     const [contact, setContact] = useState("");
     const [errors, setErrors] = useState<{ name?: string; contact?: string }>({});
     const [done, setDone] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     function markStarted() {
         if (!started.current) {
@@ -39,14 +41,23 @@ export function OfferForm({
         }
     }
 
-    function submit() {
+    async function submit() {
         const next: { name?: string; contact?: string } = {};
         if (!name.trim()) next.name = "Please enter your name.";
         if (contact.trim().length < 6) next.contact = "Please enter your email or phone number.";
         setErrors(next);
         if (Object.keys(next).length) return;
 
-        setDone(true);
+        const res = await submitOffer({ name, email: contact, phone: contact, category, description });
+        setLoading(false);
+        if (res.error) {
+            setLoading(false);
+            console.log(res.error);
+            setErrors({ contact: res.error });
+        } else {
+            setDone(true);
+            setLoading(false);
+        }
     }
 
     if (done) {

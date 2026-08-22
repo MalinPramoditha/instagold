@@ -42,7 +42,7 @@ export const estateJewelryData = {
         eyebrow: "New York · West 47th Street",
         title: "Sell Estate Jewelry in NYC",
         image: {
-            title: "estate-jewelry-hero",
+            title: "jewelry-hero",
             alt: "Antique and vintage estate jewelry pieces on stone at the InstaGold 47th Street office",
         },
         description: "Sell estate jewelry in NYC with confidence at InstaGold. We are a licensed buyer on 47th Street in the Diamond District, paying top cash for antique, vintage, and inherited jewelry. We value every piece in front of you, for its gold, its stones, and its maker, and pay the same day. No appointment needed. No obligation to sell."
@@ -137,7 +137,7 @@ export const estateJewelryData = {
         align: "left",
         tone: "stone",
         image: {
-            title: "cat-gold",
+            title: "jewelry-examined",
             alt: "Estate jewelry and old-cut diamonds examined during an InstaGold evaluation"
         },
         eyebrow: "Fair value",
