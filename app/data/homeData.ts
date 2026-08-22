@@ -36,7 +36,7 @@ export const homeData = {
         steps: [
             {
                 title: "Tell us what you have",
-                body: "One short form,category, rough weight or details, photos if you have them. Under a minute, no cost.",
+                body: "One short form, category, rough weight or details, photos if you have them. Under a minute, no cost.",
             },
             {
                 title: "See the live spot-based number",

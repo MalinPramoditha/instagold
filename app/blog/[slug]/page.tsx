@@ -35,12 +35,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
         title: post.metaTitle || post.title,
         description: post.metaDescription || post.description,
         alternates: {
-            canonical: `${post.seo?.canonical || '/blog/' + post.slug.current}`,
+            canonical: `https://instagoldbuyers.com/blog/${post.slug.current}`,
         },
         openGraph: {
             title: post.metaTitle || post.title,
             description: post.metaDescription || post.description,
-            url: `${post.seo?.canonical || '/blog/' + post.slug.current}`,
+            url: `https://instagoldbuyers.com/blog/${post.slug.current}`,
             siteName: SITE.name,
             images: [
                 {
