@@ -161,7 +161,7 @@ export async function submitOffer(data: {
         const transporter = nodemailer.createTransport({
             host: "smtp.office365.com",
             port: 587,
-            secure: false,
+            secure: true,
             auth: {
                 user: "info@instagoldbuyers.com",
                 pass: "yB/7cu79_t8|s",

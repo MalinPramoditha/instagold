@@ -42,17 +42,20 @@ export function OfferForm({
     }
 
     async function submit() {
+        setLoading(true);
         const next: { name?: string; contact?: string } = {};
         if (!name.trim()) next.name = "Please enter your name.";
         if (contact.trim().length < 6) next.contact = "Please enter your email or phone number.";
         setErrors(next);
-        if (Object.keys(next).length) return;
-        setLoading(true);
+        if (Object.keys(next).length) {
+            setLoading(false);
+            return;
+        }
         const res = await submitOffer({ name, email: contact, phone: contact, category, description });
-        setLoading(false);
+
         if (res.code === 500) {
             setLoading(false);
-            console.log(res.message);
+            console.log('error', res.message);
         } else {
             setDone(true);
             console.log(res.success)
@@ -172,9 +175,12 @@ export function OfferForm({
 
                     <button
                         type="submit"
+                        disabled={loading}
                         className="mt-6 inline-flex min-h-12 w-full items-center justify-center rounded-md bg-brand px-6 text-base font-semibold text-ink transition-colors hover:bg-brand-hover"
                     >
-                        Get My Free Offer
+                        {loading ? (
+                            <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Submitting...</>
+                        ) : "Get My Free Offer"}
                     </button>
 
                     <p className="mt-4 flex items-start gap-2 text-sm leading-relaxed text-muted-foreground">
