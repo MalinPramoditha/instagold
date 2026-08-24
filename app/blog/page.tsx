@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     }
 }
 
+
+
 const POSTS_QUERY = `*[
   _type == "post"
   && defined(slug.current)
@@ -25,13 +27,35 @@ const POSTS_QUERY = `*[
   "imageUrl": image.asset->url,
 "excerpt": body[0].children[0].text}`;
 
+
 const options = { next: { revalidate: 60 } }
 
 export default async function Page() {
     const posts = await client.fetch<SanityDocument[]>(POSTS_QUERY, {}, options);
-    console.log(posts)
+
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        name: "The InstaGold Blog",
+        url: "https://instagoldbuyers.com/blog",
+        description: "Guides and tips for selling gold, watches, and jewelry in NYC. Learn how to get the most for your valuables from InstaGold's experts.",
+        publisher: {
+            "@type": "Organization",
+            name: "InstaGold Buyers Refinery",
+            url: "https://instagoldbuyers.com",
+        },
+        blogPost: posts,
+    }
+
     return (
         <>
+            <>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                />
+
+            </>
             <BlogHome data={posts} />
         </>
     );
