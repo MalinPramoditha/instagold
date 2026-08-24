@@ -7,6 +7,9 @@ import { CTACompact } from "@/components/site/blocks";
 export const metadata: Metadata = {
     title: "What We Buy | Gold, Watches & Diamonds | InstaGold",
     description: "InstaGold buys gold, watches, diamonds, and jewelry in NYC's Diamond District. Explore what we buy and get a free, same-day offer.",
+    alternates: {
+        canonical: "https://instagoldbuyers.com/what-we-buy",
+    }
 };
 
 const CARDS = [
