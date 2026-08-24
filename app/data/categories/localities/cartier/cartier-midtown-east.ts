@@ -41,7 +41,7 @@ export const cartierMidtownEastData = {
         eyebrow: "New York · Midtown East",
         title: "Sell Your Cartier in Midtown East",
         image: {
-            title: "cartier-midtown-east-hero",
+            title: "cartier-hero",
             alt: "Cartier watches on stone at the InstaGold 47th Street office, serving Midtown East sellers",
         },
         description: "Sell your Cartier in Midtown East the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Santos, Tank, Ballon Bleu, and every Cartier reference, with or without box and papers. Midtown East is right beside our 47th Street office, so you can sell in person in minutes and get paid the same day. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",

@@ -41,7 +41,7 @@ export const cartierSohoData = {
         eyebrow: "New York · SoHo",
         title: "Sell Your Cartier in SoHo",
         image: {
-            title: "cartier-soho-hero",
+            title: "cartier-hero",
             alt: "Cartier watches on stone at the InstaGold 47th Street office, serving SoHo sellers",
         },
         description: "Sell your Cartier in SoHo the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Santos, Tank, Ballon Bleu, and every Cartier reference, with or without box and papers. From SoHo, our 47th Street office is a quick trip uptown, so you can sell face to face and get a fair, same-day offer instead of mailing it away. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",

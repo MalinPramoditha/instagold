@@ -41,7 +41,7 @@ export const cartierDowntownJerseyCityData = {
         eyebrow: "New York · Downtown Jersey City",
         title: "Sell Your Cartier in Downtown Jersey City",
         image: {
-            title: "cartier-downtown-jersey-city-hero",
+            title: "cartier-hero",
             alt: "Cartier watches on stone at the InstaGold 47th Street office, serving Downtown Jersey City sellers",
         },
         description: "Sell your Cartier in Downtown Jersey City the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Santos, Tank, Ballon Bleu, and every Cartier reference, with or without box and papers. From Downtown Jersey City, our 47th Street office is a quick PATH ride into Manhattan, so you can sell in person and get a fair, same-day offer. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",

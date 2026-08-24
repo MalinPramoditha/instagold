@@ -41,7 +41,7 @@ export const cartierHudsonYardsData = {
         eyebrow: "New York · Hudson Yards",
         title: "Sell Your Cartier in Hudson Yards",
         image: {
-            title: "cartier-hudson-yards-hero",
+            title: "cartier-hero",
             alt: "Cartier watches on stone at the InstaGold 47th Street office, serving Hudson Yards sellers",
         },
         description: "Sell your Cartier in Hudson Yards the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Santos, Tank, Ballon Bleu, and every Cartier reference, with or without box and papers. Hudson Yards is a short ride from our 47th Street office, so you can sell in person and get a fair, same-day offer. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",

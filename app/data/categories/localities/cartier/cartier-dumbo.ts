@@ -41,7 +41,7 @@ export const cartierDumboData = {
         eyebrow: "New York · DUMBO",
         title: "Sell Your Cartier in DUMBO",
         image: {
-            title: "cartier-dumbo-hero",
+            title: "cartier-hero",
             alt: "Cartier watches on stone at the InstaGold 47th Street office, serving DUMBO sellers",
         },
         description: "Sell your Cartier in DUMBO the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Santos, Tank, Ballon Bleu, and every Cartier reference, with or without box and papers. From DUMBO, our 47th Street office is a quick ride across the river, so you can sell in person instead of mailing it, and get paid the same day. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",

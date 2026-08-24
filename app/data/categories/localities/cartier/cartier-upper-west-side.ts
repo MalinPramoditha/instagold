@@ -41,7 +41,7 @@ export const cartierUpperWestSideData = {
         eyebrow: "New York · Upper West Side",
         title: "Sell Your Cartier in Upper West Side",
         image: {
-            title: "cartier-upper-west-side-hero",
+            title: "cartier-hero",
             alt: "Cartier watches on stone at the InstaGold 47th Street office, serving Upper West Side sellers",
         },
         description: "Sell your Cartier in Upper West Side the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Santos, Tank, Ballon Bleu, and every Cartier reference, with or without box and papers. From the Upper West Side, our 47th Street office is a straight ride down, so you can sell in person and get a fair, same-day offer. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",

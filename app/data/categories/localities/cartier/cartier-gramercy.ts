@@ -41,7 +41,7 @@ export const cartierGramercyData = {
         eyebrow: "New York · Gramercy",
         title: "Sell Your Cartier in Gramercy",
         image: {
-            title: "cartier-gramercy-hero",
+            title: "cartier-hero",
             alt: "Cartier watches on stone at the InstaGold 47th Street office, serving Gramercy sellers",
         },
         description: "Sell your Cartier in Gramercy the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Santos, Tank, Ballon Bleu, and every Cartier reference, with or without box and papers. Gramercy is a short trip from our 47th Street office, so you can sell in person, explore your options with no pressure, and get paid the same day. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",

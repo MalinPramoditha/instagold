@@ -41,7 +41,7 @@ export const cartierParkSlopeData = {
         eyebrow: "New York · Park Slope",
         title: "Sell Your Cartier in Park Slope",
         image: {
-            title: "cartier-park-slope-hero",
+            title: "cartier-hero",
             alt: "Cartier watches on stone at the InstaGold 47th Street office, serving Park Slope sellers",
         },
         description: "Sell your Cartier in Park Slope the smart way with InstaGold. We are a licensed watch buyer on 47th Street in the Diamond District, paying top cash for Santos, Tank, Ballon Bleu, and every Cartier reference, with or without box and papers. From Park Slope, our 47th Street office is a direct ride into Manhattan, so you can sell in person and get paid the same day. We authenticate and value your watch in front of you and pay the same day. No appointment needed. No obligation to sell.",
