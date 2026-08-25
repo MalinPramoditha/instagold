@@ -4,7 +4,7 @@ import { Check, ChevronDown, Loader2, Lock } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { SITE } from "@/app/data/site";
 
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { submitOffer } from "@/app/services/email-submission-actions";
 
 const CATEGORIES = ["Gold", "Diamonds", "Watches", "Jewelry", "Other"] as const;
@@ -34,6 +34,8 @@ export function OfferForm({
     const [done, setDone] = useState(false);
     const [loading, setLoading] = useState(false);
 
+    const router = useRouter();
+
     function markStarted() {
         if (!started.current) {
             started.current = true;
@@ -57,7 +59,9 @@ export function OfferForm({
             setLoading(false);
             console.log('error', res.message);
         } else {
-            setDone(true);
+            sessionStorage.setItem('form_submitted', 'true');
+            router.push("/thank-you");
+            // setDone(true);
             console.log(res.success)
             setLoading(false);
         }

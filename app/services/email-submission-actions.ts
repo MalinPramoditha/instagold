@@ -2,35 +2,36 @@
 import { submissionTemplate } from '@/components/site/templates/Submission';
 import nodemailer from 'nodemailer';
 import SMTPTransport from 'nodemailer/lib/smtp-transport';
+import { sendReply } from './email-submission-reply';
 
 
 
 
 export async function submitOffer(data: {
-    name: string;
-    email: string;
-    phone: string;
-    category: string;
-    description: string;
+  name: string;
+  email: string;
+  phone: string;
+  category: string;
+  description: string;
 }) {
-    try {
+  try {
 
-        const transporter = nodemailer.createTransport({
-            host: process.env.SMTP_HOST,
-            port: process.env.SMTP_PORT,
-            secure: false,
-            auth: {
-                user: process.env.SMTP_USER,
-                pass: process.env.SMTP_PASS,
-            },
-        });
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_HOST,
+      port: process.env.SMTP_PORT,
+      secure: false,
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+    });
 
-        const mailOptions = {
-            from: process.env.SMTP_USER,
-            to: process.env.SMTP_USER,
-            subject: "New Offer Request - InstaGold Buyers",
-            text: "test email",
-            html: `<body style="margin:0; padding:0; background-color:#f3ece0; font-family:'Helvetica Neue', Arial, sans-serif; -webkit-font-smoothing:antialiased;">
+    const mailOptions = {
+      from: process.env.SMTP_USER,
+      to: process.env.SMTP_USER,
+      subject: "New Offer Request - InstaGold Buyers",
+      text: "test email",
+      html: `<body style="margin:0; padding:0; background-color:#f3ece0; font-family:'Helvetica Neue', Arial, sans-serif; -webkit-font-smoothing:antialiased;">
   <div style="display:none; max-height:0; overflow:hidden; opacity:0;">
     New offer request from ${data.name} - ${data.category}
   </div>
@@ -154,15 +155,22 @@ export async function submitOffer(data: {
     </tr>
   </table>
 </body>`,
-        };
+    };
 
-        const info = await transporter.sendMail(mailOptions);
-
-        return { success: info.envelope, messageId: info.messageId };
-
-    } catch (error) {
-        console.log(error);
-        return { message: error, code: 500 };
+    const info = await transporter.sendMail(mailOptions);
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    if (emailRegex.test(data.email)) {
+      console.log("it is a email")
+      const reply = await sendReply({
+        email: data.email,
+      })
+      console.log(reply);
     }
+    return { success: info.envelope, messageId: info.messageId };
+
+  } catch (error) {
+    console.log(error);
+    return { message: error, code: 500 };
+  }
 
 }
